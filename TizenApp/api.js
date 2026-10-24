@@ -290,13 +290,16 @@ window.ApiClient = class ApiClient {
 
     categoryId(value) {
         const text = String(value || '').toLowerCase().normalize ? String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '') : String(value || '').toLowerCase();
-        if (/movie|film|cine|pelicula/.test(text)) return 'movies';
-        if (/series|serie/.test(text)) return 'series';
-        if (/animation|animacion|infantil|children|kids|cartoon/.test(text)) return 'animation';
-        if (/entertainment|entretenimiento|variedades|comedy|comedia/.test(text)) return 'entertainment';
-        if (/documentary|documental/.test(text)) return 'documentary';
-        if (/sport|deporte/.test(text)) return 'sports';
-        if (/news|noticia|informativo/.test(text)) return 'news';
+        if (/anime|manga|otaku|crunchyroll|toonami|animax/.test(text)) return 'animation';
+        if (/animation|animacion|infantil|children|kids|cartoon|dibujos|toons?/.test(text)) return 'animation';
+        if (/movie|film|cine|pelicula|cinema/.test(text)) return 'movies';
+        if (/series|serie|novela|soap/.test(text)) return 'series';
+        if (/sport|deporte|futbol|soccer|racing|motor/.test(text)) return 'sports';
+        if (/news|noticia|informativo|legislative|weather|business/.test(text)) return 'news';
+        if (/music|musica|musical|radio|hits|videoclip/.test(text)) return 'music';
+        if (/religious|religion|religioso|iglesia|cristo|jesus|catolic|evangel/.test(text)) return 'religious';
+        if (/documentary|documental|culture|cultura|science|ciencia|education|educacion|nature|historia|history|travel|outdoor/.test(text)) return 'documentary';
+        if (/lifestyle|cooking|cocina|family|familia|entertainment|entretenimiento|variedades|comedy|comedia|humor/.test(text)) return 'entertainment';
         return 'general';
     }
 

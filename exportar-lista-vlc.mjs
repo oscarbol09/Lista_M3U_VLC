@@ -15,11 +15,20 @@ const api = new window.ApiClient();
 const spanishCountries = new Set(config.sources.find(source => source.id === 'iptv-org-json').spanishCountries);
 // Include Brazil as Latin America; country alone never overrides a geo-block flag.
 const allowedCountries = new Set([...spanishCountries, 'BR']);
+
 const categoryNames = {
-  movies: 'Películas', series: 'Series', animation: 'Animación e infantil',
-  entertainment: 'Entretenimiento', documentary: 'Documentales', sports: 'Deportes',
-  news: 'Noticias', general: 'General'
+  movies: 'Películas',
+  series: 'Series',
+  animation: 'Anime / Animaciones',
+  news: 'Noticias',
+  sports: 'Deportes',
+  music: 'Música',
+  documentary: 'Documentales',
+  entertainment: 'Entretenimiento',
+  religious: 'Religión',
+  general: 'General'
 };
+
 const countryNames = {
   AR: 'Argentina', BO: 'Bolivia', BR: 'Brasil', CL: 'Chile', CO: 'Colombia',
   CR: 'Costa Rica', CU: 'Cuba', DO: 'República Dominicana', EC: 'Ecuador',
@@ -27,7 +36,12 @@ const countryNames = {
   PA: 'Panamá', PE: 'Perú', PR: 'Puerto Rico', PY: 'Paraguay', SV: 'El Salvador',
   UY: 'Uruguay', VE: 'Venezuela'
 };
-const categoryPriority = ['movies', 'series', 'animation', 'entertainment', 'documentary', 'sports', 'news', 'general'];
+
+const categoryPriority = [
+  'movies', 'series', 'animation', 'news', 'sports',
+  'music', 'documentary', 'entertainment', 'religious', 'general'
+];
+
 const explicitlyNonSpanishMexico = /^(bloomberg tv\+|new kpop|glory kickboxing|failarmy|red bull tv)$/i;
 const sourceStats = [];
 const channels = [];
@@ -39,11 +53,13 @@ let filteredRegion = 0;
 let filteredOther = 0;
 
 const normalizeText = value => String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
 const isGeoBlocked = channel => {
   const text = `${channel.name || ''} ${channel.description || ''} ${(channel.labels || []).join(' ')}`;
   return /geo[- ]?blocked|geobloq|restricci[oó]n geogr[aá]fica/i.test(text) ||
     (channel.labels || []).some(label => /^geo$/i.test(String(label).trim()));
 };
+
 const isSpanishLatam = (channel, source) => {
   if (source.id === 'lg-mexico-m3u' && explicitlyNonSpanishMexico.test(String(channel.name || '').trim())) return false;
   const code = String(channel.countryCode || '').toUpperCase();
@@ -56,24 +72,88 @@ const isSpanishLatam = (channel, source) => {
   }
   return false;
 };
+
 const clean = value => String(value || '').replace(/[\r\n]/g, ' ').replace(/"/g, "'").trim();
+
 const logicalGroup = channel => {
+  const declared = (channel.categories || []).filter(c => c !== 'general');
+  let cleanName = (channel.name || '').replace(/\[not 24\/7\]/gi, '').replace(/\(not 24\/7\)/gi, '');
   const text = normalizeText([
-    channel.name || '', channel.description || '',
-    ...(channel.categories || []), ...(channel.labels || [])
+    cleanName, channel.description || '', (channel.labels || []).join(' '), channel.canonicalId || ''
   ].join(' '));
-  const inferred = /\b(kids?|children|infantil|ninos|cartoon|animation|animacion|anime|dibujos)\b/.test(text) ? 'animation'
-    : /\b(movie|movies|film|films|cine|pelicula|peliculas|cinema)\b/.test(text) ? 'movies'
-      : /\b(series|serie|novela|novelas|telenovela|drama|soap)\b/.test(text) ? 'series'
-        : /\b(sport|sports|deporte|deportes|futbol|football|soccer|basket|tennis|tenis)\b/.test(text) ? 'sports'
-          : /\b(news|noticias|noticia|informativo|noticiero)\b/.test(text) ? 'news'
-            : /\b(documentary|documental|documentales|nature|naturaleza|history|historia|wildlife)\b/.test(text) ? 'documentary'
-              : /\b(entertainment|entretenimiento|comedy|comedia|variedades|music|musica|lifestyle)\b/.test(text) ? 'entertainment'
-                : 'general';
-  const declared = categoryPriority.find(value => value !== 'general' && (channel.categories || []).includes(value));
-  const category = declared || (inferred !== 'general' ? inferred : 'general');
+
+  let category = 'general';
+
+  // 1. ANIME & ANIMACIONES
+  if (
+    declared.includes('animation') ||
+    /\b(anime|manga|otaku|crunchyroll|toonami|animax)\b/.test(text) ||
+    /\b(cartoon|cartoons|tooncast|toons?|dibujos|animacion|animaciones)\b/.test(text) ||
+    /\b(disney|nickelodeon|nick\s*jr|boing|clan|pakapaka|discovery\s*kids|baby\s*tv|nat\s*geo\s*kids|cbeebies|xabarin|chikitoonz|dreamworks|infantil|infantiles|ninos|pequeradio)\b/.test(text)
+  ) {
+    category = 'animation';
+  }
+  // 2. PELÍCULAS
+  else if (
+    declared.includes('movies') ||
+    /\b(pelicula|peliculas|movies?|films?|cinema|cine|cinemax|cinecanal|paramount|hbo|cinelatino|multipremier|golden|de\s*pelicula|somos\s*cine|star\s*channel|film\s*&?\s*arts|amc|space|hollywood|eurochannel|studio\s*universal)\b/.test(text)
+  ) {
+    category = 'movies';
+  }
+  // 3. SERIES
+  else if (
+    declared.includes('series') ||
+    /\b(series?|telenovela|telenovelas|novelas?|tnt\s*series|tnt\s*novelas|rcn\s*novelas|caracol\s*novelas|pasiones|drama)\b/.test(text)
+  ) {
+    category = 'series';
+  }
+  // 4. DEPORTES
+  else if (
+    declared.includes('sports') ||
+    /\b(deportes?|sports?|futbol|football|soccer|basket|baloncesto|tenis|tennis|golf|motor|f1|formula\s*1|motogp|racing|nba|liga)\b/.test(text) ||
+    /\b(espn|fox\s*sports?|tyc\s*sports?|win\s*sports?|win\+|dsports|teledeporte|esport3|real\s*madrid\s*tv|barca\s*tv|gol\s*play|gol\s*tv|claro\s*sports?|tigo\s*sports?|deportv|showsport)\b/.test(text)
+  ) {
+    category = 'sports';
+  }
+  // 5. RELIGIÓN & ESPIRITUALIDAD
+  else if (
+    declared.includes('religious') ||
+    /\b(religion|religioso|religiosa|iglesia|cristo|cristianos?|cristiana|jesus|catolic[oa]s?|evangel(io|ic[oa])|bethel|enlace|ewtn|vida\s*nueva|maria\s*vision|cristovision|canal\s*luz|red\s*advenir|oracion|avivamiento|pastor|ministerio|fe\s+(viviente|catolica|cristiana|viva))\b/.test(text)
+  ) {
+    category = 'religious';
+  }
+  // 6. NOTICIAS
+  else if (
+    declared.includes('news') ||
+    /\b(noticias?|noticiero|noticioso|news|informativos?|24\s*horas|24h|cnn|c5n|tn\b|telesur|euronews|rt\s*en\s*espanol|dw\s*espanol|ntn24|milenio|forotv|adn40|cablenoticias)\b/.test(text)
+  ) {
+    category = 'news';
+  }
+  // 7. MÚSICA
+  else if (
+    declared.includes('music') ||
+    /\b(musica|music|musical|musicales|hits|videoclips?|radiovisual|radio\s*tv)\b/.test(text) ||
+    /\b(mtv|htv|los40|los\s*40|kiss\s*tv|qmusic|tropicana|la\s*kalle|ritmoson|telehit|allegro|beats\s*radio)\b/.test(text)
+  ) {
+    category = 'music';
+  }
+  // 8. DOCUMENTALES & CULTURA
+  else if (
+    declared.includes('documentary') ||
+    /\b(documental|documentales|documentary|historia|history|discovery|national\s*geographic|nat\s*geo|animal\s*planet|naturaleza|nature|wildlife|ciencia|science|cultura|cultural|encuentro|canal\s*\(?a\)?)\b/.test(text)
+  ) {
+    category = 'documentary';
+  }
+  // 9. ENTRETENIMIENTO & VARIEDADES
+  else if (
+    declared.includes('entertainment') ||
+    /\b(entretenimiento|entertainment|variedades|comedia|comedy|humor|talk\s*show|magazine|reality|lifestyle|estilo\s*de\s*vida|gourmet|cocina|cooking|glamour|hola\s*tv|fashion)\b/.test(text)
+  ) {
+    category = 'entertainment';
+  }
+
   const country = countryNames[channel.countryCode] || channel.countryCode || 'Hispano-latino';
-  return { category, country, label: `${categoryNames[category]} | ${country}` };
+  return { category, country, label: categoryNames[category] };
 };
 
 const outcomes = await Promise.all(config.sources.map(async source => {
@@ -161,6 +241,7 @@ const playable = channels.map(channel => {
     /^https?:\/\//i.test(candidate.streamUrl || '') && !/\[[A-Z0-9_]+\]/i.test(candidate.streamUrl || ''));
   return { channel, candidates, ...logicalGroup(channel) };
 }).filter(item => item.candidates.length);
+
 const categoryOrder = new Map(categoryPriority.map((value, index) => [value, index]));
 playable.sort((left, right) =>
   categoryOrder.get(left.category) - categoryOrder.get(right.category) ||
@@ -189,20 +270,31 @@ function addEntry(item, candidate, displayName, groupTitle) {
   lines.push(candidate.streamUrl);
 }
 
+function formatDisplayName(baseName, countryCode, backupSuffix = '') {
+  const code = String(countryCode || '').toUpperCase().trim();
+  const cleanBase = baseName.replace(/^\[[A-Z]{2}\]\s*/, '').trim();
+  const prefix = code && code !== 'HISPANO-LATINO' ? `[${code}] ` : '';
+  const suffix = backupSuffix ? ` ${backupSuffix}` : '';
+  return `${prefix}${cleanBase}${suffix}`.trim();
+}
+
+// 1. Main primary channels (grouped by clean category names)
 for (const item of playable) {
   const channel = item.channel;
   const baseName = clean(channel.name || channel.canonicalId || 'Canal');
-  addEntry(item, item.candidates[0], baseName, item.label);
+  const displayName = formatDisplayName(baseName, channel.countryCode);
+  addEntry(item, item.candidates[0], displayName, item.label);
 }
 
+// 2. Fallback alternatives (cleanly grouped under "Respaldos manuales" at the end)
 for (const item of playable) {
   const channel = item.channel;
   const baseName = clean(channel.name || channel.canonicalId || 'Canal');
   for (let index = 1; index < item.candidates.length; index += 1) {
     const candidate = item.candidates[index];
-    const country = countryNames[candidate.countryCode] || candidate.countryCode || item.country;
-    const backupLabel = `Respaldos manuales | ${categoryNames[item.category]} | ${country}`;
-    addEntry(item, candidate, `${baseName} [respaldo ${index + 1}]`, backupLabel);
+    const countryCode = candidate.countryCode || channel.countryCode || '';
+    const displayName = formatDisplayName(baseName, countryCode, `[respaldo ${index + 1}]`);
+    addEntry(item, candidate, displayName, 'Respaldos manuales');
   }
 }
 
@@ -212,6 +304,7 @@ if (!playable.length) {
 
 const output = path.join(directory, 'canales-hispano-latino-vlc.m3u');
 await writeFile(output, `${lines.join('\r\n')}\r\n`, 'utf8');
+
 console.log(JSON.stringify({
   output,
   uniqueChannels: playable.length,

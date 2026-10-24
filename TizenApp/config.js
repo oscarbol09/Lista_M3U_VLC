@@ -52,11 +52,13 @@ window.APP_CONFIG = Object.freeze({
         colombia: 'Colombia',
         movies: 'Películas',
         series: 'Series',
-        animation: 'Animación e infantil',
+        animation: 'Anime / Animaciones',
         entertainment: 'Entretenimiento',
         documentary: 'Documentales',
         general: 'General',
         sports: 'Deportes',
-        news: 'Noticias'
+        news: 'Noticias',
+        music: 'Música',
+        religious: 'Religión'
     }
 });
