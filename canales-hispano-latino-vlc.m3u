@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-10-24T01:54:51.679Z
+# Generated: 2026-10-24T11:07:03.023Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -1873,8 +1873,6 @@ https://stmv6.voxtvhd.com.br/solivetv/solivetv/playlist.m3u8
 http://138.121.15.230:9002/SONY/index.m3u8
 #EXTINF:-1 tvg-id="T5Satelital.ar" tvg-logo="" group-title="General",[AR] T5 Satelital
 https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
-#EXTINF:-1 tvg-id="TelePosadas.ar" tvg-logo="" group-title="General",[AR] Tele Posadas HD
-https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecinco.ar" tvg-logo="" group-title="General",[AR] TeleCinco Trelew
 https://videohd.live:19360/8016/8016.m3u8
 #EXTINF:-1 tvg-id="Telefe.ar" tvg-logo="" group-title="General",[AR] Telefe
@@ -4644,8 +4642,6 @@ https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 https://unlimited6-cl.dps.live/nettv/nettv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NGFederal.ar" tvg-logo="" group-title="Respaldos manuales",[AR] NG Federal [respaldo 2]
 https://617c5175c970b.streamlock.net:4444/tvlink/live/playlist.m3u8
-#EXTINF:-1 tvg-id="TelePosadas.ar" tvg-logo="" group-title="Respaldos manuales",[AR] Tele Posadas HD [respaldo 2]
-https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/playlist.m3u8
 #EXTINF:-1 tvg-id="TelefeInternacional.ar" tvg-logo="" group-title="Respaldos manuales",[AR] Telefe Internacional [respaldo 2]
 http://200.115.120.1:8000/play/ca016/index.m3u8
 #EXTINF:-1 tvg-id="Telenord.ar" tvg-logo="" group-title="Respaldos manuales",[AR] Telenord [respaldo 2]
