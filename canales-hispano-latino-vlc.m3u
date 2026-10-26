@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-10-25T11:36:40.225Z
+# Generated: 2026-10-26T13:09:23.412Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -523,7 +523,7 @@ https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8
 #EXTINF:-1 tvg-id="Esport3.es" tvg-logo="" group-title="Deportes",[ES] Esport3
 https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 tvg-id="RealMadridTVEnglish.es" tvg-logo="" group-title="Deportes",[ES] Real Madrid TV English
-http://88.212.15.17/live/real_madrid_tv/index.m3u8
+http://88.212.15.50/live/real_madrid_tv/index.m3u8
 #EXTINF:-1 tvg-id="RealMadridTV.es" tvg-logo="" group-title="Deportes",[ES] Realmadrid TV
 https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8
 #EXTINF:-1 tvg-id="Teledeporte.es" tvg-logo="" group-title="Deportes",[ES] Teledeporte
@@ -1113,7 +1113,7 @@ https://cnn.hostlagarto.com/oepmtelevision/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Teletur.do" tvg-logo="" group-title="Documentales",[DO] Teletur
 https://fox.hostlagarto.com:8081/teleturtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TurismoRDTV.do" tvg-logo="" group-title="Documentales",[DO] Turismo RDTV
-https://streamunoapp.com:3086/live/telemileniolive.m3u8
+https://5790d294af2dc.streamlock.net/yosoyturismotv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="UCL.uy" tvg-logo="" group-title="Documentales",[UY] UCL
 https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
 #EXTINF:-1 tvg-id="CanalDiplomatico.ve" tvg-logo="" group-title="Documentales",[VE] Canal Diplomatico
@@ -2702,8 +2702,6 @@ https://ingest2-video.streaming-pro.com/creus/stream/playlist.m3u8
 https://liveingesta318.cdnmedia.tv/canalreustvlive/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Canal San Roque:https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8" tvg-logo="https://yt3.googleusercontent.com/6SgTMpyVCJlMGBcip6gvloYy2u-BP4vY-H2paJ2zO471owJq_YcgPhUUB0tBaKIKlNUKzeRf=s200" group-title="General",[ES] Canal San Roque
 https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalSur.es" tvg-logo="" group-title="General",[ES] Canal Sur
-https://cdn.stmify.com/zapitv/stream/CANAL_SUR/canal_sur_hd.mpd
 #EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="General",[ES] Canal Sur Andalucía
 https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/74cdbd1b401a7598ab8f3e9b5652c9909daa60dd4f6f96f28396a3f1cfd926f2.m3u8
 #EXTINF:-1 tvg-id="CanalSur2.es" tvg-logo="" group-title="General",[ES] Canal Sur Andalucía 2
@@ -3636,8 +3634,8 @@ https://live.11-cdn.com/TeleOnce/3fc63fe00050c646635f16b071cd33e2.sdp/playlist.m
 https://wapa-updater.onrender.com/WAPA-TV-4-1.m3u8
 #EXTINF:-1 tvg-id="WIPRTV61.pr" tvg-logo="" group-title="General",[PR] WIPR
 https://streamwipr.pr/hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="WKAQTV22.pr" tvg-logo="" group-title="General",[PR] WKAQ-DT2 (Punto 2)
-https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master.m3u8
+#EXTINF:-1 tvg-id="WKAQTV22.pr" tvg-logo="" group-title="General",[PR] WKAQ-TV 2.2
+https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master_720.m3u8
 #EXTINF:-1 tvg-id="WXWZLD231.pr" tvg-logo="" group-title="General",[PR] WXWZ-LD1 (MásTV Canal 23)
 https://5bf8041cb3fed.streamlock.net/mastvpr/mastvpr/playlist.m3u8
 #EXTINF:-1 tvg-id="A7TV.do" tvg-logo="" group-title="General",[DO] A7 TV
@@ -3669,7 +3667,7 @@ https://tele-stream.telecasa.net/live/st2/bonaotv-hd/index.m3u8
 #EXTINF:-1 tvg-id="CamuTV.do" tvg-logo="" group-title="General",[DO] Camu TV
 https://live20.bozztv.com/akamaissh101/ssh101/camutv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanaTVDigital.do" tvg-logo="" group-title="General",[DO] Cana TV Digital
-https://stream.hostuis.com:19360/canatvdigital/canatvdigital.m3u8
+https://cdnfox.hostlagarto.com/canatvdigital/index.m3u8
 #EXTINF:-1 tvg-id="Canal4RD.do" tvg-logo="" group-title="General",[DO] Canal 4 RD
 https://cdn.protvradiostream.com/canal4rd-1/ngrp:canal4rd-1_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal70.do" tvg-logo="" group-title="General",[DO] Canal 70
@@ -3736,8 +3734,8 @@ https://5790d294af2dc.streamlock.net/enteraterd/enteraterd/playlist.m3u8
 https://soportedvb.click:3442/live/entunotvlive.m3u8
 #EXTINF:-1 tvg-id="Extra86TV.do" tvg-logo="" group-title="General",[DO] Extra 86 TV
 https://video-eu1.streamerr.co/hls/sb77f834a54/live.m3u8
-#EXTINF:-1 tvg-id="Farovision.do" tvg-logo="" group-title="General",[DO] Farovisión
-https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="Farovision.do" tvg-logo="" group-title="General",[DO] Farovision
+https://5790d294af2dc.streamlock.net/femeninatv/femeninatv/playlist.m3u8
 #EXTINF:-1 tvg-id="FemeninaTV.do" tvg-logo="" group-title="General",[DO] Femenina TV
 https://streamunoapp.com:3511/live/femeninatvlive.m3u8
 #EXTINF:-1 tvg-id="FRATATV.do" tvg-logo="" group-title="General",[DO] FRATA TV
@@ -3745,7 +3743,7 @@ https://vdopanel.jlahozconsulting.com:3706/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="GHTelevision.do" tvg-logo="" group-title="General",[DO] GH Television
 https://fox.hostlagarto.com:8081/ghtelevision/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="GlobalTV.do" tvg-logo="" group-title="General",[DO] Global TV
-https://stmv4.voxtvhd.com.br/globaltv/globaltv/playlist.m3u8
+https://vtm1.msinteractiva.com./globaltv/globaltv/playlist.m3u8
 #EXTINF:-1 tvg-id="HainaVision.do" tvg-logo="" group-title="General",[DO] Haina Vision
 https://cdn.streamingcpanel.com:3447/live/hainavisionlive.m3u8
 #EXTINF:-1 tvg-id="HilandoFinoTV.do" tvg-logo="" group-title="General",[DO] Hilando Fino TV
@@ -3769,7 +3767,7 @@ https://micanal.ovh/livestreams/544.EP3QGO4KPL66.m3u8
 #EXTINF:-1 tvg-id="LagunaTV.do" tvg-logo="" group-title="General",[DO] Laguna TV
 https://cnn.hostlagarto.com/lagutv/playlist.m3u8
 #EXTINF:-1 tvg-id="LarivisionTV.do" tvg-logo="" group-title="General",[DO] Larivision TV
-https://live.larimartv.net/livelan/stream.m3u8
+https://cloud5.larivision.net/hls/live.m3u8
 #EXTINF:-1 tvg-id="LatinaTVInternacional.do" tvg-logo="" group-title="General",[DO] Latina TV Internacional
 https://5790d294af2dc.streamlock.net/latinatv/latinatv/chunklist.m3u8
 #EXTINF:-1 tvg-id="LenaTV.do" tvg-logo="" group-title="General",[DO] Lena TV
@@ -3781,7 +3779,7 @@ https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8
 #EXTINF:-1 tvg-id="ManaclarTelevision.do" tvg-logo="" group-title="General",[DO] Manaclar Television
 https://5790d294af2dc.streamlock.net/manaclar/manaclar/playlist.m3u8
 #EXTINF:-1 tvg-id="ManielTV.do" tvg-logo="" group-title="General",[DO] Maniel TV
-https://mp.panelchs.com/hls/8024/8024.m3u8
+https://5790d294af2dc.streamlock.net/manieltv/manieltv/playlist.m3u8
 #EXTINF:-1 tvg-id="MarkaTV.do" tvg-logo="" group-title="General",[DO] Marka TV
 https://5790d294af2dc.streamlock.net/markatv/markatv/playlist.m3u8
 #EXTINF:-1 tvg-id="MarlaVision.do" tvg-logo="" group-title="General",[DO] Marla Vision
@@ -3851,7 +3849,7 @@ http://190.122.104.210:5080/LiveApp/streams/sitv2.m3u8
 #EXTINF:-1 tvg-id="SuperCanal.do" tvg-logo="" group-title="General",[DO] Super Canal
 https://cnn.hostlagarto.com/supercanalhd/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperDigitalTV.do" tvg-logo="" group-title="General",[DO] Super Digital TV
-https://mp.panelchs.com/hls/8032/8032.m3u8
+https://cdn.streamrd.cloud/live/ch_kb5qe1zr.m3u8
 #EXTINF:-1 tvg-id="Supremateve.do" tvg-logo="" group-title="General",[DO] Supremateve
 https://ss2.tvrdomi.com:1936/supremateve/supremateve/playlist.m3u8
 #EXTINF:-1 tvg-id="TDNMedios.do" tvg-logo="" group-title="General",[DO] TDN Medios
@@ -4028,10 +4026,10 @@ http://190.61.47.54:8000/play/a035/index.m3u8
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/space.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNCEE.es" tvg-logo="" group-title="Respaldos manuales",[ES] AXN CEE Bulgary [respaldo 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
-http://88.212.15.17/live/test_axn/playlist.m3u8
+http://88.212.15.50/live/test_axn/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNCEE.es" tvg-logo="" group-title="Respaldos manuales",[ES] AXN CEE Bulgary [respaldo 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://88.212.15.17/live/axn_hun/index.m3u8
+http://88.212.15.50/live/axn_hun/index.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.es" tvg-logo="" group-title="Respaldos manuales",[MX] MyTime movie network Spain [respaldo 2]
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.es" tvg-logo="" group-title="Respaldos manuales",[ES] Rakuten TV Action Movies Austria [respaldo 2]
@@ -5415,10 +5413,6 @@ https://streamwipr.pr/hls/stream/1/index.m3u8
 #EXTINF:-1 tvg-id="WIPRTV61.pr" tvg-logo="" group-title="Respaldos manuales",[PR] WIPR [respaldo 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://ott3.streann.com/loadbalancer/services/public/channels-secure/6273ffeae4b037870081ff51/playlist.m3u8
-#EXTINF:-1 tvg-id="WKAQTV22.pr" tvg-logo="" group-title="Respaldos manuales",[PR] WKAQ-DT2 (Punto 2) [respaldo 2]
-https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master_720.m3u8
-#EXTINF:-1 tvg-id="WKAQTV22.pr" tvg-logo="" group-title="Respaldos manuales",[PR] WKAQ-DT2 (Punto 2) [respaldo 3]
-http://38.107.110.140:61400/play/a07a/index.m3u8
 #EXTINF:-1 tvg-id="Antena7.do" tvg-logo="" group-title="Respaldos manuales",[DO] Antena 7 HD [respaldo 2]
 https://alba-do-antena7-antena7.stream.mediatiquestream.com/index.m3u8
 #EXTINF:-1 tvg-id="CDN.do" tvg-logo="" group-title="Respaldos manuales",[DO] CDN [respaldo 2]
@@ -5435,7 +5429,7 @@ http://187.102.210.46/GLOBAL/index.m3u8
 #EXTINF:-1 tvg-id="GlobalTV.do" tvg-logo="" group-title="Respaldos manuales",[PE] Global TV [respaldo 6]
 https://live-evg7.tv360.bitel.com.pe/bitel/global_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="LarivisionTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Larivision TV [respaldo 2]
-https://cloud5.larivision.net/hls/live.m3u8
+https://live.larivision.net/livelan/live.m3u8
 #EXTINF:-1 tvg-id="MegaVisionTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Megavision Canal 43 [respaldo 2]
 http://server3.prostudionetwork.com:1943/megavision/MV/playlist.m3u8
 #EXTINF:-1 tvg-id="NexxoTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Nexxo TV [respaldo 2]
