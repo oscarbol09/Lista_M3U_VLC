@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-10-28T12:59:54.566Z
+# Generated: 2026-10-29T13:07:39.309Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -892,6 +892,8 @@ https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8
 https://live.obslivestream.com/tvoriente/index.m3u8
 #EXTINF:-1 tvg-id="RumbaMixTV.pe" tvg-logo="" group-title="Música",[PE] RumbaMix TV
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="TopLatinoTV.pe" tvg-logo="" group-title="Música",[PE] Top Latino TV
+http://38.87.224.20:2220/play/a02b/index.m3u8
 #EXTINF:-1 tvg-id="TurboMixRadioTV.pe" tvg-logo="" group-title="Música",[PE] Turbo Mix Radio TV
 https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPeruanisima.pe" tvg-logo="" group-title="Música",[PE] TV Peruanisima
@@ -3640,8 +3642,6 @@ https://59825a54e4454.streamlock.net:8443/william233/william233/playlist.m3u8
 https://627bb251f23c7.streamlock.net:444/TopRadioTV/TopRadioTV/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleOnce.pr" tvg-logo="" group-title="General",[PR] TeleOnce
 https://live.11-cdn.com/TeleOnce/3fc63fe00050c646635f16b071cd33e2.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="WAPATV41.pr" tvg-logo="" group-title="General",[PR] WAPA-TV 4.1
-https://wapa-updater.onrender.com/WAPA-TV-4-1.m3u8
 #EXTINF:-1 tvg-id="WIPRTV61.pr" tvg-logo="" group-title="General",[PR] WIPR
 https://streamwipr.pr/hls/stream/index.m3u8
 #EXTINF:-1 tvg-id="WKAQTV22.pr" tvg-logo="" group-title="General",[PR] WKAQ-TV 2.2
@@ -4157,6 +4157,8 @@ https://stream1.bitred.cl/rcn-novelas/index.m3u8
 #EXTINF:-1 tvg-id="RCNNovelas.co@SD" tvg-logo="https://i.imgur.com/9wxdWNQ.png" group-title="Respaldos manuales",[CO] RCN Novelas (1080p) [respaldo 6]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://streaming.onnethn.com/RCN_NOVELAS/playlist.m3u8
+#EXTINF:-1 tvg-id="RCNNovelas.co@SD" tvg-logo="https://i.imgur.com/9wxdWNQ.png" group-title="Respaldos manuales",[CO] RCN Novelas (1080p) [respaldo 7]
+http://45.171.64.30:8800/play/a01z
 #EXTINF:-1 tvg-id="TVEStar.es" tvg-logo="" group-title="Respaldos manuales",[ES] TVE Star HD [respaldo 2]
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es" tvg-logo="" group-title="Respaldos manuales",[ES] TVE Star HD [respaldo 3]
@@ -4452,6 +4454,8 @@ http://168.228.44.241:9999/play/a04n/index.m3u8
 http://190.217.66.92:8000/play/a0ej/index.m3u8
 #EXTINF:-1 tvg-id="Zoom.co@SD" tvg-logo="https://i.imgur.com/euy5zp6.png" group-title="Respaldos manuales",[CO] Zoom (Colombia) (1080p) [respaldo 3]
 http://200.122.223.13:55000/play/zoom-banda-ku/index.m3u8
+#EXTINF:-1 tvg-id="Zoom.co@SD" tvg-logo="https://i.imgur.com/euy5zp6.png" group-title="Respaldos manuales",[CO] Zoom (Colombia) (1080p) [respaldo 4]
+http://181.78.79.131:8000/play/a0sg
 #EXTINF:-1 tvg-id="Condavision.TV" tvg-logo="https://graph.facebook.com/condavision/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Condavisión [respaldo 2]
 https://5d8d85cf2c308.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="El33.es" tvg-logo="" group-title="Respaldos manuales",[ES] El 33 Originals [respaldo 2]
@@ -5319,6 +5323,8 @@ http://190.93.224.42/CANAL-LAS-ESTRELLAS/index.m3u8
 http://209.14.115.253:8081/LAS-ESTRELLAS/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx" tvg-logo="" group-title="Respaldos manuales",[MX] Las Estrellas Latin America [respaldo 4]
 http://38.44.109.41:8003/play/a0he
+#EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx" tvg-logo="" group-title="Respaldos manuales",[MX] Las Estrellas Latin America [respaldo 5]
+https://streaming.onnethn.com/LAS_ESTRELLAS_HD/playlist.m3u8
 #EXTINF:-1 tvg-id="MC.mx" tvg-logo="" group-title="Respaldos manuales",[MX] MC [respaldo 2]
 http://45.5.118.152:8000/play/a03r/index.m3u8
 #EXTINF:-1 tvg-id="SICOMTelevision.mx" tvg-logo="" group-title="Respaldos manuales",[MX] SET Televisión Canal 26.1 [respaldo 2]
