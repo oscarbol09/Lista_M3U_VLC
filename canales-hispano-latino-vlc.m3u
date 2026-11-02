@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-11-01T13:29:40.240Z
+# Generated: 2026-11-02T16:01:50.859Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -3725,7 +3725,7 @@ https://micanal.ovh/livestreams/544.EP3QGO4KPL66.m3u8
 #EXTINF:-1 tvg-id="LagunaTV.do" tvg-logo="" group-title="General",[DO] Laguna TV
 https://cnn.hostlagarto.com/lagutv/playlist.m3u8
 #EXTINF:-1 tvg-id="LarivisionTV.do" tvg-logo="" group-title="General",[DO] Larivision TV
-https://cloud5.larivision.net/hls/live.m3u8
+https://live.larivision.net/livelan/live.m3u8
 #EXTINF:-1 tvg-id="LatinaTVInternacional.do" tvg-logo="" group-title="General",[DO] Latina TV Internacional
 https://5790d294af2dc.streamlock.net/latinatv/latinatv/chunklist.m3u8
 #EXTINF:-1 tvg-id="LenaTV.do" tvg-logo="" group-title="General",[DO] Lena TV
@@ -5405,8 +5405,6 @@ https://cablered.iptvperu.tv:1936/cablered/global.stream/playlist.m3u8
 http://187.102.210.46/GLOBAL/index.m3u8
 #EXTINF:-1 tvg-id="GlobalTV.do" tvg-logo="" group-title="Respaldos manuales",[PE] Global TV [respaldo 6]
 https://live-evg7.tv360.bitel.com.pe/bitel/global_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="LarivisionTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Larivision TV [respaldo 2]
-https://live.larivision.net/livelan/live.m3u8
 #EXTINF:-1 tvg-id="MegaVisionTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Megavision Canal 43 [respaldo 2]
 http://server3.prostudionetwork.com:1943/megavision/MV/playlist.m3u8
 #EXTINF:-1 tvg-id="NexxoTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Nexxo TV [respaldo 2]
