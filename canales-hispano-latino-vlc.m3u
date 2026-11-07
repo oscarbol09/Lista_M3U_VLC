@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-11-06T14:21:14.501Z
+# Generated: 2026-11-07T13:08:11.771Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -144,7 +144,7 @@ http://181.78.14.26:4000/play/a073/index.m3u8
 #EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="Anime / Animaciones",[CO] Nick Jr. Latin America (1080p)
 https://streaming.onnethn.com/NICK_JR/playlist.m3u8
 #EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Anime / Animaciones",[CO] Nickelodeon Latin America (1080p)
-http://15.204.246.24:8080/NickHD/index.m3u8
+http://181.78.79.131:8000/play/a0qm
 #EXTINF:-1 tvg-id="Tooncast.us@SouthAmerica" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="Anime / Animaciones",[CO] Tooncast SouthAmerica (480p)
 http://190.61.42.218:9000/play/a06i/index.m3u8
 #EXTINF:-1 tvg-id="ExtremaKidsTV.cr" tvg-logo="" group-title="Anime / Animaciones",[CR] Extrema Kids TV
@@ -407,6 +407,8 @@ https://d2b5h5wyivfnfl.cloudfront.net/live/48f53430-9014-4459-a048-6169dac14140/
 https://www.desde-paraguay.com/mega.m3u8
 #EXTINF:-1 tvg-id="Nanduti.py" tvg-logo="" group-title="Noticias",[PY] Nanduti
 http://190.128.214.97:64333/play/a02d/index.m3u8
+#EXTINF:-1 tvg-id="SenadoTV.py" tvg-logo="" group-title="Noticias",[PY] Senado TV
+https://vid.hls.protv.ro/liveibu6/liveibu6_highw/index.m3u8?1
 #EXTINF:-1 tvg-id="SucesoTV.py" tvg-logo="" group-title="Noticias",[PY] Suceso TV
 https://live.enhdtv.com:8081/8060/index.m3u8
 #EXTINF:-1 tvg-id="TVCamara.py" tvg-logo="" group-title="Noticias",[PY] TV Camara
@@ -559,6 +561,8 @@ http://170.244.209.30:8000/play/a1i8/index.m3u8
 http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SqalaTV.pe" tvg-logo="" group-title="Deportes",[PE] Sqala TV
 https://live-evg8.tv360.bitel.com.pe/bitel/studiotvhuanta/playlist.m3u8
+#EXTINF:-1 tvg-id="WAPATV42.pr" tvg-logo="" group-title="Deportes",[PR] WAPA-TV 4.2
+https://wapa.hostless.app/WAPA-TV-4-2.m3u8
 #EXTINF:-1 tvg-id="CDNDeportes.do" tvg-logo="" group-title="Deportes",[DO] CDN Deportes
 https://hls.tvabierta.net/hls/036.m3u8
 #EXTINF:-1 tvg-id="ColimdoTV.do" tvg-logo="" group-title="Deportes",[DO] ColimdoT TV
@@ -4177,8 +4181,6 @@ https://5fe2654d6127d.streamlock.net/telemetrika3/_definst_/videotelemetrika3/pl
 https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Unifranz.bo" tvg-logo="" group-title="Respaldos manuales",[BO] Unifranz [respaldo 2]
 https://live.enhdtv.com:8081/8192/index.m3u8
-#EXTINF:-1 tvg-id="Telecanal.cl" tvg-logo="" group-title="Respaldos manuales",[CL] Telecanal [respaldo 2]
-https://tr.live.clarovtrcdn.vtrplay.com/telecanalsdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1 tvg-id="Tevex.cl" tvg-logo="" group-title="Respaldos manuales",[CL] Tevex [respaldo 2]
 https://v4.tustreaming.cl/tevexinter/index.m3u8
 #EXTINF:-1 tvg-id="CanalCongreso.co@SD" tvg-logo="https://i.imgur.com/3VnL8dp.png" group-title="Respaldos manuales",[CO] Canal Congreso (1080p) [respaldo 2]
@@ -4381,6 +4383,8 @@ http://138.94.3.106:8000/play/a04r/index.m3u8
 http://186.148.196.100:8000/play/a02h
 #EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-logo="https://i.imgur.com/WtVpWwI.png" group-title="Respaldos manuales",[CO] Rumba TV (1080p) [respaldo 4]
 http://190.61.47.54:8000/play/a01l/index.m3u8
+#EXTINF:-1 tvg-id="RumbaTV.co@SD" tvg-logo="https://i.imgur.com/WtVpWwI.png" group-title="Respaldos manuales",[CO] Rumba TV (1080p) [respaldo 5]
+http://190.124.20.69/RumbaTV/index.m3u8
 #EXTINF:-1 tvg-id="VideoTourChannel.cr" tvg-logo="" group-title="Respaldos manuales",[CR] Video Tour Channel [respaldo 2]
 http://k4.usastreams.com/videotour/videotour/playlist.m3u8
 #EXTINF:-1 tvg-id="VMLatino.cr" tvg-logo="" group-title="Respaldos manuales",[CR] VM Latino [respaldo 2]
@@ -5212,6 +5216,8 @@ https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_TV_Sabadell_Valles.TV" tvg-logo="https://graph.facebook.com/tvsabadellvalles/picture?width=200&height=200" group-title="Respaldos manuales",[ES] TV Sabadell - Vallès [respaldo 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEInternacionalAmerica.es" tvg-logo="" group-title="Respaldos manuales",[ES] TVE Internacional America [respaldo 2]
+https://barinaslive1.boldmss.com/TVE/TVE.isml/index.m3u8
 #EXTINF:-1 tvg-id="Spain:TVG Eventos:https://crtvg-events1.flumotion.cloud/playlist.m3u8" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="Respaldos manuales",[ES] TVG Eventos [respaldo 2]
 https://crtvg-events2.flumotion.cloud/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:TVG Eventos:https://crtvg-events1.flumotion.cloud/playlist.m3u8" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="Respaldos manuales",[ES] TVG Eventos [respaldo 3]
