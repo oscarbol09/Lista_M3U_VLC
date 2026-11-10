@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-11-09T16:27:37.895Z
+# Generated: 2026-11-10T14:56:39.963Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -613,8 +613,6 @@ https://media.neuquen.gov.ar/rtn/television/playlist.m3u8
 http://190.128.214.97:64333/play/a032/index.m3u8
 #EXTINF:-1 tvg-id="TheCabbinFM.ar" tvg-logo="" group-title="Música",[AR] The Cabbin FM
 https://5f700d5b2c46f.streamlock.net/thecabinn/thecabinn/playlist.m3u8
-#EXTINF:-1 tvg-id="XLevelMedia.ar" tvg-logo="" group-title="Música",[AR] X Level Media
-https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8
 #EXTINF:-1 tvg-id="AlegriaTV.bo" tvg-logo="" group-title="Música",[BO] Alegria TV
 https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Audiokiss.bo" tvg-logo="" group-title="Música",[BO] Audiokiss
@@ -1743,6 +1741,8 @@ https://stream.arcast.com.ar/casse/casse/playlist.m3u8
 http://arcast.net:1935/cadena103/cadena103/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal10Cordoba.ar" tvg-logo="" group-title="General",[AR] Canal 10 Cordoba
 https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal10Goya.ar" tvg-logo="" group-title="General",[AR] Canal 10 Goya
+https://tv.streamcasthd.com:3637/live/canal10goyalive.m3u8
 #EXTINF:-1 tvg-id="Canal12Web.ar" tvg-logo="" group-title="General",[AR] Canal 12 Puerto Madryn
 https://5f700d5b2c46f.streamlock.net/madryntv/madryntv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal12VenadoTuerto.ar" tvg-logo="" group-title="General",[AR] Canal 12 Venado Tuerto
@@ -3228,7 +3228,7 @@ https://igd-it-runtime.otteravision.com/igd/it/it.m3u8
 #EXTINF:-1 tvg-id="jail" tvg-logo="http://img.platform.wurl.dev/channel/2239/lg/aa749c/LG-Logo-PNG-100x100_v1.png" group-title="General",[MX] JAIL
 https://96e3a92f.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfSmFpbGVuRXNwYW5vbElOVExfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-logo="" group-title="General",[MX] Las Estrellas
-http://45.189.151.7:8000/play/a07s
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx" tvg-logo="" group-title="General",[MX] Las Estrellas Latin America
 http://15.204.246.24:8080/LasEstrellasHD/index.m3u8
 #EXTINF:-1 tvg-id="MC.mx" tvg-logo="" group-title="General",[MX] MC
@@ -3478,6 +3478,8 @@ https://tv.huachotv.com/stream.m3u8
 https://live-evg5.tv360.bitel.com.pe/bitel/imperialSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="IntuitivaTV.pe" tvg-logo="" group-title="General",[PE] Intuitiva TV
 https://video2.lhdserver.es/cableperu/live.m3u8
+#EXTINF:-1 tvg-id="LaTremendaTV.pe" tvg-logo="" group-title="General",[PE] La Tremenda TV
+https://iptv.latremenda.pe/LaTremendaTv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Latina.pe" tvg-logo="" group-title="General",[PE] Latina
 http://190.93.224.42/LATINA/index.m3u8
 #EXTINF:-1 tvg-id="LatinaPodcast.pe" tvg-logo="" group-title="General",[PE] Latina Podcast
@@ -4328,10 +4330,14 @@ http://158.172.155.130:8000/play/a09x/index.m3u8
 #EXTINF:-1 tvg-id="TyCSports.ar" tvg-logo="" group-title="Respaldos manuales",[AR] TyC Sports [respaldo 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.166 Safari/537.36
 https://live-04-11-tyc-app-web.vodgc.net/tyc24/index.m3u8
+#EXTINF:-1 tvg-id="TNTSportsPremium.cl" tvg-logo="" group-title="Respaldos manuales",[CL] TNT Sports Premium ArgentinaHD [respaldo 2]
+http://205.235.6.29:8000/play/a104/index.m3u8
 #EXTINF:-1 tvg-id="TNTSports.ar@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/960px-TNT_Sports_2021_logo.svg.png" group-title="Respaldos manuales",[AR] TNT Sports (Argentina) [respaldo 2]
 http://181.78.79.131:8000/play/a0mo
 #EXTINF:-1 tvg-id="TNTSports.ar@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/960px-TNT_Sports_2021_logo.svg.png" group-title="Respaldos manuales",[CL] TNT Sports (Argentina) [respaldo 3]
 http://209.45.101.130:8040/play/a03s/index.m3u8
+#EXTINF:-1 tvg-id="TNTSports.ar@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/960px-TNT_Sports_2021_logo.svg.png" group-title="Respaldos manuales",[CL] TNT Sports (Argentina) [respaldo 4]
+http://205.235.6.29:8000/play/a0xa/index.m3u8
 #EXTINF:-1 tvg-id="WinSports.co@SD" tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="Respaldos manuales",[CO] Win Sports (1080p) [respaldo 2]
 http://181.78.12.119:16123/play/ch18/index.m3u8
 #EXTINF:-1 tvg-id="WinSports.co@SD" tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="Respaldos manuales",[CO] Win Sports (1080p) [respaldo 3]
@@ -4498,6 +4504,8 @@ https://rcntv-rcnmas-1-us.roku.wurl.tv/playlist.m3u8
 http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleMas.cr" tvg-logo="" group-title="Respaldos manuales",[HN] TeleMas [respaldo 2]
 https://s.emisoras.tv:8081/telemas/index.m3u8
+#EXTINF:-1 tvg-id="MakroDigitalTelevision.ec" tvg-logo="" group-title="Respaldos manuales",[EC] MakroDigital Television [respaldo 2]
+http://205.235.6.29:8000/play/a0wp/index.m3u8
 #EXTINF:-1 tvg-id="RTVE_Cocina.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Cocina (RTVE) [respaldo 2]
 https://rtvelivestream.rtve.es/eventual/gofast/playm20_main.m3u8
 #EXTINF:-1 tvg-id="ETB2ON.TV" tvg-logo="https://play-lh.googleusercontent.com/GUW-ipQpsCCLhoJwWarfUDYO_vr3-5rpxhfipNSHAAvlaaWdfBwdUtVVUzs3PPyQzrSBVepKSqPzNAwDHvljII0=w200" group-title="Respaldos manuales",[ES] ETB 2 On [respaldo 2]
@@ -4544,6 +4552,8 @@ https://mlb.essastream.com:8081/canalcocotv/tracks-v1a1/mono.m3u8
 https://stream.haislin.com/super7fm/index.m3u8
 #EXTINF:-1 tvg-id="TVS.do" tvg-logo="" group-title="Respaldos manuales",[VE] TVS [respaldo 2]
 https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
+#EXTINF:-1 tvg-id="AbejalesTV.ve" tvg-logo="" group-title="Respaldos manuales",[VE] AbejalesTV [respaldo 2]
+https://streaming5.globalhostla.com/rtplive/abejales/playlist.m3u8
 #EXTINF:-1 tvg-id="TVFamilia.ve" tvg-logo="" group-title="Respaldos manuales",[VE] TV Familia [respaldo 2]
 https://59d39900ebfb8.streamlock.net/tvfamilia_270p/tvfamilia_270p/playlist.m3u8
 #EXTINF:-1 tvg-id="VePlus.ve" tvg-logo="" group-title="Respaldos manuales",[VE] Ve Plus Panregional [respaldo 2]
@@ -5299,8 +5309,6 @@ http://45.5.118.152:8000/play/a03i/index.m3u8
 https://tinyurl.com/canal5uy
 #EXTINF:-1 tvg-id="ImagenTV.mx" tvg-logo="" group-title="Respaldos manuales",[MX] Imagen TV [respaldo 2]
 https://jmp2.uk/plu-64e35aff6b1fdb0008ea8441.m3u8
-#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-logo="" group-title="Respaldos manuales",[MX] Las Estrellas [respaldo 2]
-https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
 #EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx" tvg-logo="" group-title="Respaldos manuales",[MX] Las Estrellas Latin America [respaldo 2]
 http://38.44.109.41:8003/play/a0he
 #EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx" tvg-logo="" group-title="Respaldos manuales",[MX] Las Estrellas Latin America [respaldo 3]
