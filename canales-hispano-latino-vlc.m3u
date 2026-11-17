@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-11-16T15:53:05.115Z
+# Generated: 2026-11-17T16:04:56.140Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -31,12 +31,14 @@ http://45.171.64.30:2000/play/a04o/index.m3u8
 http://38.134.250.110:8000/play/a029/index.m3u8
 #EXTINF:-1 tvg-id="PantallaClasicaEC.ec" tvg-logo="" group-title="Películas",[EC] Pantalla Clásica EC
 https://live21.bozztv.com/akamaissh101/ssh101/pantallaclasics/playlist.m3u8
-#EXTINF:-1 tvg-id="AXN.es" tvg-logo="" group-title="Películas",[ES] AXN
-http://sultanios.alwaysdata.net/vavo.php?ID=4238619703
 #EXTINF:-1 tvg-id="AXNCEE.es" tvg-logo="" group-title="Películas",[ES] AXN CEE Bulgary
 http://85.11.144.9:4222/AXN
+#EXTINF:-1 tvg-id="AXN.es" tvg-logo="" group-title="Películas",[ES] AXN HD
+http://90.170.214.40:9700/stream/avatel/axn/master.m3u8
 #EXTINF:-1 tvg-id="AXNMovies.es" tvg-logo="" group-title="Películas",[ES] AXN Movies
 http://sultanios.alwaysdata.net/vavo.php?ID=2493319111
+#EXTINF:-1 tvg-id="BomCine.es" tvg-logo="" group-title="Películas",[ES] Bom Cine
+https://cdn78-at.azotosolutions.com/cdnedge39/Canale3/master.m3u8
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.es" tvg-logo="" group-title="Películas",[ES] MyTime movie network Spain
 https://appletree-mytimespain-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.es" tvg-logo="" group-title="Películas",[ES] Rakuten TV Action Movies Austria
@@ -53,6 +55,8 @@ https://4aa9ef08b70d4b0c8f3519c5950b1930.mediatailor.eu-west-1.amazonaws.com/v1/
 https://1d1b0d4cb6ae4c31985d13221795695b.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6057/master.m3u8
 #EXTINF:-1 tvg-id="RTVE_SomosCine.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Películas",[ES] Somos Cine (RTVE)
 https://ztnr.rtve.es/ztnr/6909845.m3u8
+#EXTINF:-1 tvg-id="Squirrel.es" tvg-logo="" group-title="Películas",[ES] Squirrel
+https://cdn78-at.azotosolutions.com/cdnedge39/Canale1/master.m3u8
 #EXTINF:-1 tvg-id="SundanceTV.es" tvg-logo="" group-title="Películas",[ES] Sundance TV
 https://cdn.stmify.com/zapitv/stream/SUNDANCE_TV/sundance_hd.mpd
 #EXTINF:-1 tvg-id="CineFriki.es" tvg-logo="" group-title="Películas",[ES] Zylo Cine Friki
@@ -131,8 +135,6 @@ http://45.171.108.253:8888/LATINA/index.m3u8
 http://138.59.227.20:8000/play/a05t/index.m3u8
 #EXTINF:-1 tvg-id="PlimPlim.ar" tvg-logo="" group-title="Anime / Animaciones",[AR] Plim Plim
 http://45.70.168.162:1503/play/a02a/index.m3u8
-#EXTINF:-1 tvg-id="FunBox.cl" tvg-logo="" group-title="Anime / Animaciones",[CL] FunBox
-http://186.148.196.100:8000/play/a00d
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@NorthAtlantic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Anime / Animaciones",[CO] Cartoon Network Latin America North Atlantic (1080p)
 http://45.173.12.70:8000/play/a0fj
 #EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Colombia" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="Anime / Animaciones",[CO] Discovery Kids Latin America Colombia (1080p)
@@ -172,6 +174,8 @@ https://cdn-canalextremadura.watchity.net/fast2/master.m3u8
 http://stream.mcquack.net/167/index.m3u8
 #EXTINF:-1 tvg-id="LogosTVKids.es" tvg-logo="" group-title="Anime / Animaciones",[ES] Logos TV Kids
 https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.es" tvg-logo="" group-title="Anime / Animaciones",[ES] Nickelodeon HD
+http://90.170.214.40:9700/stream/avatel/nickelodeonhd/master.m3u8
 #EXTINF:-1 tvg-id="Pequeradio.es" tvg-logo="" group-title="Anime / Animaciones",[ES] Pequeradio
 https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
 #EXTINF:-1 tvg-id="Spain:Pequeradio TV:https://vps-9f1e2662.vps.ovh.net/hls/antenitatv.m3u8" tvg-logo="https://graph.facebook.com/Pequeradio/picture?width=200&height=200" group-title="Anime / Animaciones",[ES] Pequeradio TV
@@ -914,7 +918,7 @@ https://streamunoapp.com:3553/live/cromtvlive.m3u8
 #EXTINF:-1 tvg-id="Hits360TV.do" tvg-logo="" group-title="Música",[DO] Hits 360 TV
 http://cm.hostlagarto.com:8081/hits360tv/hits360HD.myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="HTVLive.do" tvg-logo="" group-title="Música",[DO] HTV Live
-https://fox.hostlagarto.com:8081/canalhtv/tracks-v1a1/mono.m3u8
+https://stream1.28tv.online/HTVLiveCanal52/index.m3u8
 #EXTINF:-1 tvg-id="MaimonTVCanal3.do" tvg-logo="" group-title="Música",[DO] Maimon TV Canal 3
 https://tele-stream.telecasa.net/live/st3/maimontv-hd/index.m3u8
 #EXTINF:-1 tvg-id="MakaoTV.do" tvg-logo="" group-title="Música",[DO] Makao TV
@@ -1115,6 +1119,8 @@ http://187.102.210.46/USMP/index.m3u8
 https://cdn.protvradiostream.com/rtvd17/ngrp:rtvd17_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Ecovision.do" tvg-logo="" group-title="Documentales",[DO] Ecovisión
 https://streaming.grupomediosdelnorte.com:19360/ecovision/ecovision.m3u8
+#EXTINF:-1 tvg-id="GuaymateTV.do" tvg-logo="" group-title="Documentales",[DO] Guaymate TV
+https://183.giatvcdn.com/ssh101/ssh101/guaymatetv/playlist.m3u8
 #EXTINF:-1 tvg-id="OEPMTV.do" tvg-logo="" group-title="Documentales",[DO] OEPM TV
 https://cnn.hostlagarto.com/oepmtelevision/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Teletur.do" tvg-logo="" group-title="Documentales",[DO] Teletur
@@ -1187,6 +1193,8 @@ https://movil.ejeserver.com/live/nets.m3u8
 https://live.amelbatv.co:81/womtvlive/index.m3u8
 #EXTINF:-1 tvg-id="CanicaTV.co@SD" tvg-logo="https://i.imgur.com/RuQDwTt.jpeg" group-title="Entretenimiento",[CO] Canica TV (240p)
 https://stmv4.voxtvhd.com.br/canicatv/canicatv/playlist.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Entretenimiento",[CO] Comedy Central Latin America (1080p)
+http://190.93.224.42/COMEDY-CENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="Entretenimiento",[CO] FX Latin America (1080p)
 http://15.204.246.24:8080/FXHD/index.m3u8
 #EXTINF:-1 tvg-id="HogarTV.co@SD" tvg-logo="https://i.imgur.com/zqovMhf.png" group-title="Entretenimiento",[CO] Hogar TV (1080p)
@@ -1231,6 +1239,8 @@ https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8
 https://cloudvideo.servers10.com:8081/8024/index.m3u8
 #EXTINF:-1 tvg-id="RTVE_Cocina.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Entretenimiento",[ES] Cocina (RTVE)
 https://ztnr.rtve.es/ztnr/16656232.m3u8
+#EXTINF:-1 tvg-id="ComedyCentral.es" tvg-logo="" group-title="Entretenimiento",[ES] Comedy Central
+http://90.170.214.40:9700/stream/avatel/comedycentral/master.m3u8
 #EXTINF:-1 tvg-id="DMAX.es" tvg-logo="" group-title="Entretenimiento",[ES] DMAX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://90.163.85.113:8093/stream/51/index.m3u8
@@ -2067,8 +2077,6 @@ https://v1.tustreaming.cl/canal30loncomilla/index.m3u8
 https://5ff3d9babae13.streamlock.net/aufymdjpjf/aufymdjpjf/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal9BioBioTelevision.cl" tvg-logo="" group-title="General",[CL] Canal 9 Bío Bío Televisión
 https://unlimited6-cl.dps.live/c9/c9.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalClaro.cl" tvg-logo="" group-title="General",[CL] Canal Claro
-https://jmp2.uk/plu-68224482c5d53e1351aaf2f2.m3u8
 #EXTINF:-1 tvg-id="CanalLatino54.cl" tvg-logo="" group-title="General",[CL] Canal Latino 54
 https://videostream.chileservidores.com:8081/latina/index.m3u8
 #EXTINF:-1 tvg-id="CanalLocal.cl" tvg-logo="" group-title="General",[CL] Canal Local
@@ -2249,6 +2257,8 @@ https://canal.aupurtv.co/live/stream/index.m3u8
 https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8
 #EXTINF:-1 tvg-id="BUMTelevision.co@SD" tvg-logo="https://i.imgur.com/I0eGYI0.png" group-title="General",[CO] BUM Television (720p) [Not 24/7]
 https://movil.ejeserver.com/live/visiondorada.m3u8
+#EXTINF:-1 tvg-id="CaliTV.co@SD" tvg-logo="https://i.imgur.com/2312Luq.png" group-title="General",[CO] CaliTV (1080p)
+https://tdcdigital-streams.github.io/iptv/CaliTV.m3u8
 #EXTINF:-1 tvg-id="Canal1.co@SD" tvg-logo="https://i.imgur.com/YFywPLC.png" group-title="General",[CO] Canal 1 (Colombia) (1080p)
 http://190.109.2.92:8000/play/a010/index.m3u8
 #EXTINF:-1 tvg-id="Canal2AlpavisionNeiva.co@SD" tvg-logo="https://i.imgur.com/Yv8XIGW.png" group-title="General",[CO] Canal 2 Alpavision Neiva (720p) [Not 24/7]
@@ -3589,7 +3599,7 @@ https://live-evg11.tv360.bitel.com.pe/bitel/uraniotv/playlist.m3u8
 https://live-evg8.tv360.bitel.com.pe/bitel/uranioyurimaguasSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="ViaAltomayo.pe" tvg-logo="" group-title="General",[PE] Vía Altomayo
 https://live.obslivestream.com/viaaltomayomux/index.m3u8
-#EXTINF:-1 tvg-id="ViaTelevision.pe" tvg-logo="" group-title="General",[PE] Vía Televisión (720P)
+#EXTINF:-1 tvg-id="ViaTelevision.pe" tvg-logo="" group-title="General",[PE] Vía Televisión
 https://videoserver.tmcreativos.com:19360/cablerasvia/cablerasvia.m3u8
 #EXTINF:-1 tvg-id="VisionSur.pe" tvg-logo="" group-title="General",[PE] Vision Sur
 https://live-evg8.tv360.bitel.com.pe/bitel/visionsur/playlist.m3u8
@@ -4023,6 +4033,8 @@ http://88.212.15.50/live/test_axn/playlist.m3u8
 #EXTINF:-1 tvg-id="AXNCEE.es" tvg-logo="" group-title="Respaldos manuales",[ES] AXN CEE Bulgary [respaldo 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.15.50/live/axn_hun/index.m3u8
+#EXTINF:-1 tvg-id="AXN.es" tvg-logo="" group-title="Respaldos manuales",[ES] AXN HD [respaldo 2]
+http://sultanios.alwaysdata.net/vavo.php?ID=4238619703
 #EXTINF:-1 tvg-id="MyTimeMovieNetwork.es" tvg-logo="" group-title="Respaldos manuales",[MX] MyTime movie network Spain [respaldo 2]
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RakutenTVActionMovies.es" tvg-logo="" group-title="Respaldos manuales",[ES] Rakuten TV Action Movies Austria [respaldo 2]
@@ -4156,6 +4168,8 @@ https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3
 http://190.128.214.97:64333/play/a02r/index.m3u8
 #EXTINF:-1 tvg-id="PlimPlim.ar" tvg-logo="" group-title="Respaldos manuales",[AR] Plim Plim [respaldo 2]
 http://200.115.120.1:8000/play/ca091/index.m3u8
+#EXTINF:-1 tvg-id="PlimPlim.ar" tvg-logo="" group-title="Respaldos manuales",[AR] Plim Plim [respaldo 3]
+http://186.148.196.100:8000/play/a00d
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Respaldos manuales",[AR] Disney Channel Latin America (1080p) [respaldo 2]
 http://181.78.8.199:8000/play/a0dn/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/ff/2024_Disney_Channel_text_logo.svg" group-title="Respaldos manuales",[AR] Disney Channel Latin America (1080p) [respaldo 3]
@@ -4187,6 +4201,8 @@ http://45.185.163.75:8000/play/a016/index.m3u8
 http://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 #EXTINF:-1 tvg-id="DisneyJrLatinAmerica.ar@North" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Respaldos manuales",[AR] Disney Jr. Latin America (1080p) [respaldo 6]
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/disney_jr.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Boing.es" tvg-logo="" group-title="Respaldos manuales",[ES] Boing [respaldo 2]
+http://90.170.214.40:9700/stream/avatel/boing/master.m3u8
 #EXTINF:-1 tvg-id="MAXAnime.ve" tvg-logo="" group-title="Respaldos manuales",[VE] MAX Anime [respaldo 2]
 http://45.228.234.9:8000/play/a06u/index.m3u8
 #EXTINF:-1 tvg-id="A24.ar" tvg-logo="" group-title="Respaldos manuales",[AR] A24 [respaldo 2]
@@ -4222,6 +4238,8 @@ https://ztnr.rtve.es/ztnr/5473142.m3u8
 https://rtvelivestream.rtve.es/rtvesec/can/24h_can_main_dvr.m3u8
 #EXTINF:-1 tvg-id="24Horas.es" tvg-logo="" group-title="Respaldos manuales",[ES] Canal 24 Horas [respaldo 2]
 https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8
+#EXTINF:-1 tvg-id="24Horas.es" tvg-logo="" group-title="Respaldos manuales",[ES] Canal 24 Horas [respaldo 3]
+https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/24h/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="24HorasCatalunya.es" tvg-logo="" group-title="Respaldos manuales",[ES] Canal 24 Horas Catalunya [respaldo 2]
 https://rtvelivestream.rtve.es/rtvesec/cat/24h_cat_main_dvr.m3u8
 #EXTINF:-1 tvg-id="Spain:Congreso de los Diputados:https://congresodirecto.akamaized.net/hls/live/2038274/canal1/master.m3u8" tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Congreso de los Diputados [respaldo 2]
@@ -4272,6 +4290,8 @@ http://190.93.224.42/JUSTICIA-TV/index.m3u8
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/justicia.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="MilenioTelevision.mx" tvg-logo="" group-title="Respaldos manuales",[MX] Milenio Televisión [respaldo 2]
 https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
+#EXTINF:-1 tvg-id="A24Paraguay.py" tvg-logo="" group-title="Respaldos manuales",[PY] A24 Paraguay [respaldo 2]
+https://a24-live.argosworkspace.com/a24/index.m3u8
 #EXTINF:-1 tvg-id="Nanduti.py" tvg-logo="" group-title="Respaldos manuales",[PY] Nanduti [respaldo 2]
 https://nanduti.b-cdn.net/720p.m3u8
 #EXTINF:-1 tvg-id="TVCamara.py" tvg-logo="" group-title="Respaldos manuales",[PY] TV Camara [respaldo 2]
@@ -4315,6 +4335,8 @@ https://live.obslivestream.com/selvatv/index.m3u8
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/tvperunoticias.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RNN.do" tvg-logo="" group-title="Respaldos manuales",[DO] RNN DOS [respaldo 2]
 https://2-fss-2.streamhoster.com/pl_138/206532-6829902-1/playlist.m3u8
+#EXTINF:-1 tvg-id="TelenewsTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Telenews TV [respaldo 2]
+https://stream1.28tv.online/TeleNewsCanal40/index.m3u8
 #EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="" group-title="Respaldos manuales",[VE] Telesur English [respaldo 2]
 https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesur.ve" tvg-logo="" group-title="Respaldos manuales",[VE] Telesur English [respaldo 3]
@@ -4552,6 +4574,8 @@ https://alba-do-antena7-c21.stream.mediatiquestream.com/index.m3u8
 https://mlb.essastream.com:8081/canalcocotv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Super7FM.do" tvg-logo="" group-title="Respaldos manuales",[DO] Super7FM [respaldo 2]
 https://stream.haislin.com/super7fm/index.m3u8
+#EXTINF:-1 tvg-id="TVCanalSur.do" tvg-logo="" group-title="Respaldos manuales",[DO] TV Canal Sur [respaldo 2]
+https://streamtvs.tvcanalsur.com.do/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TVS.do" tvg-logo="" group-title="Respaldos manuales",[VE] TVS [respaldo 2]
 https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
 #EXTINF:-1 tvg-id="AbejalesTV.ve" tvg-logo="" group-title="Respaldos manuales",[VE] AbejalesTV [respaldo 2]
@@ -5355,6 +5379,8 @@ https://d2b5h5wyivfnfl.cloudfront.net/live/53108ffe-0b7e-46ab-bc14-3a9c30010939/
 http://190.61.101.11:7050/play/a07j/index.m3u8
 #EXTINF:-1 tvg-id="AmericaParaguay.py" tvg-logo="" group-title="Respaldos manuales",[PY] America Paraguay [respaldo 2]
 https://tv.mitvparaguay.com/hls?type=hls&id=americatv
+#EXTINF:-1 tvg-id="AmericaParaguay.py" tvg-logo="" group-title="Respaldos manuales",[PY] America Paraguay [respaldo 3]
+https://america-live.argosworkspace.com/america/index.m3u8
 #EXTINF:-1 tvg-id="Paravision.py" tvg-logo="" group-title="Respaldos manuales",[PY] Paravision [respaldo 2]
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/120.m3u8
 #EXTINF:-1 tvg-id="RegionalTVYaguaron.py" tvg-logo="" group-title="Respaldos manuales",[PY] Regional TV Yaguaron [respaldo 2]
@@ -5467,6 +5493,8 @@ https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master_5
 https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream2/master_720.m3u8
 #EXTINF:-1 tvg-id="Antena7.do" tvg-logo="" group-title="Respaldos manuales",[DO] Antena 7 HD [respaldo 2]
 https://alba-do-antena7-antena7.stream.mediatiquestream.com/index.m3u8
+#EXTINF:-1 tvg-id="BebetoTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Bebeto TV [respaldo 2]
+https://cloud5.livescast.com:19360/bebetotv/bebetotv.m3u8
 #EXTINF:-1 tvg-id="GlobalTV.do" tvg-logo="" group-title="Respaldos manuales",[PE] Global TV [respaldo 2]
 http://190.93.224.42/GLOBAL/index.m3u8
 #EXTINF:-1 tvg-id="GlobalTV.do" tvg-logo="" group-title="Respaldos manuales",[PE] Global TV [respaldo 3]
@@ -5497,6 +5525,8 @@ http://168.196.127.137:6001/play/a04o/index.m3u8
 http://190.122.104.210:5080/LiveApp/streams/C6ngUWmvwMhliYPN3668193473821155.m3u8
 #EXTINF:-1 tvg-id="Telefuturo.do" tvg-logo="" group-title="Respaldos manuales",[PY] Telefuturo [respaldo 2]
 http://158.172.217.18:8000/play/a0ns/index.m3u8
+#EXTINF:-1 tvg-id="VillaAltagraciaTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Villa Altagracia TV [respaldo 2]
+https://cdn.streamrd.cloud/watch/villa-altagracia-tv.m3u8
 #EXTINF:-1 tvg-id="GrandeTV.ve" tvg-logo="" group-title="Respaldos manuales",[VE] Grande TV [respaldo 2]
 https://live20.bozztv.com/akamaissh101/ssh101/grandetv2240/playlist.m3u8
 #EXTINF:-1 tvg-id="OnzaTV.ve" tvg-logo="" group-title="Respaldos manuales",[VE] Onza TV [respaldo 2]
