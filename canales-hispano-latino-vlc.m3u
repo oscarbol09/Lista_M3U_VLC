@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-11-21T14:42:58.291Z
+# Generated: 2026-11-22T14:38:31.740Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -151,6 +151,8 @@ http://181.78.14.26:4000/play/a073/index.m3u8
 https://streaming.onnethn.com/NICK_JR/playlist.m3u8
 #EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Anime / Animaciones",[CO] Nickelodeon Latin America (1080p)
 http://181.78.79.131:8000/play/a0qm
+#EXTINF:-1 tvg-id="Tooncast.us@Panregional" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="Anime / Animaciones",[CO] Tooncast (1080p)
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/69.m3u8
 #EXTINF:-1 tvg-id="Tooncast.us@SouthAmerica" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="Anime / Animaciones",[CO] Tooncast SouthAmerica (480p)
 http://190.61.42.218:9000/play/a06i/index.m3u8
 #EXTINF:-1 tvg-id="ExtremaKidsTV.cr" tvg-logo="" group-title="Anime / Animaciones",[CR] Extrema Kids TV
@@ -315,8 +317,6 @@ https://broadcast1.radioponiente.org/almeria24h_aac/index.m3u8
 #EXTINF:-1 tvg-id="BDN.es" tvg-logo="" group-title="Noticias",[ES] BDNCOM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/badalonatvlive/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Spain:Canal 1 Mar Menor Torre Pacheco:https://directo.tuwebtv.es/canal1.m3u8" tvg-logo="https://graph.facebook.com/tuwebtv/picture?width=200&height=200" group-title="Noticias",[ES] Canal 1 Mar Menor Torre Pacheco
-https://directo.tuwebtv.es/canal1.m3u8
 #EXTINF:-1 tvg-id="24HorasCatalunya.es" tvg-logo="" group-title="Noticias",[ES] Canal 24 Horas Catalunya
 https://rtvelivestream.rtve.es/rtvesec/cat/24h_cat_main_dvr.m3u8
 #EXTINF:-1 tvg-id="Spain:Canal Parlamento:https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8" tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200" group-title="Noticias",[ES] Canal Parlamento
@@ -339,18 +339,12 @@ https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b74
 https://dsdhx5k1zli7y.cloudfront.net/wct-73d928aa-5bc9-408c-97c6-61d898009440/continuous/41fa7b5f-29f3-4b34-8dee-a68fa27a7080/index.m3u8
 #EXTINF:-1 tvg-id="Spain:M95 Marbella:https://limited2.todostreaming.es/live/m95-livestream.m3u8" tvg-logo="https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200" group-title="Noticias",[ES] M95 Marbella
 https://limited2.todostreaming.es/live/m95-livestream.m3u8
-#EXTINF:-1 tvg-id="MirameTV.TV" tvg-logo="https://graph.facebook.com/mirametvcom/picture?width=200&height=200" group-title="Noticias",[ES] Mírame TV
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13696&live=1
 #EXTINF:-1 tvg-id="Negocios.TV" tvg-logo="https://graph.facebook.com/Negociostele/picture?width=200&height=200" group-title="Noticias",[ES] Negocios TV
 https://negociostv-negociostv-samsunges.amagi.tv/hls/amagi_hls_data_negociost-negociostv-samsunges/CDN/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Onda 15 TV:https://cloudvideo.servers10.com:8081/8034/index.m3u8" tvg-logo="https://pbs.twimg.com/profile_images/452144347593465856/NWj5Y9hn_200x200.png" group-title="Noticias",[ES] Onda 15 TV
 https://cloudvideo.servers10.com:8081/8034/index.m3u8
 #EXTINF:-1 tvg-id="Spain:Onda Valencia:https://cloudvideo.servers10.com:8081/8116/index.m3u8" tvg-logo="https://yt3.googleusercontent.com/aAS5uJNDnPz53xkeUbZ_1NaV8TJv35qhoFcmmE9UgIkpquYpNUOP6bRLwcB5WUcznnQdubdO=s200" group-title="Noticias",[ES] Onda Valencia
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
-#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Noticias",[ES] Parlamento de Andalucía
-https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8
-#EXTINF:-1 tvg-id="Spain:Parlamento de Navarra:https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR" tvg-logo="https://pbs.twimg.com/profile_images/1517046445030924289/r4OIw84T_200x200.jpg" group-title="Noticias",[ES] Parlamento de Navarra
-https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="RNE_Radio5.TV" tvg-logo="https://pbs.twimg.com/profile_images/2116820353640964096/JDGVKMUL_200x200.jpg" group-title="Noticias",[ES] Radio 5
 https://ztnr.rtve.es/ztnr/6982917.m3u8
 #EXTINF:-1 tvg-id="RNE.TV" tvg-logo="https://graph.facebook.com/radionacionalrne/picture?width=200&height=200" group-title="Noticias",[ES] Radio Nacional
@@ -541,8 +535,6 @@ https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 http://88.212.15.50/live/real_madrid_tv/index.m3u8
 #EXTINF:-1 tvg-id="RealMadridTV.es" tvg-logo="" group-title="Deportes",[ES] Realmadrid TV
 https://jmp2.uk/plu-63dac28760bc8f0008a7654b.m3u8
-#EXTINF:-1 tvg-id="Teledeporte.es" tvg-logo="" group-title="Deportes",[ES] Teledeporte
-https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8
 #EXTINF:-1 tvg-id="MultivisionSports.gt" tvg-logo="" group-title="Deportes",[GT] Multivisión Sports
 https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
 #EXTINF:-1 tvg-id="TigoSports.gt" tvg-logo="" group-title="Deportes",[GT] Tigo Sports
@@ -775,8 +767,6 @@ https://streamtv.mediasector.es/hls/activatv/index.m3u8
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-id="Spain:Factoría de Carnaval:https://eu1.servers10.com:8081/8116/index.m3u8" tvg-logo="https://pbs.twimg.com/profile_images/1498617906560737281/iOri7Ujk_200x200.jpg" group-title="Música",[ES] Factoría de Carnaval
 https://eu1.servers10.com:8081/8116/index.m3u8
-#EXTINF:-1 tvg-id="LaUrbanTV.es" tvg-logo="" group-title="Música",[ES] La Urban TV
-https://urbanrevolution.es:8443/live/TV/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:LIRA TV:https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8" tvg-logo="https://graph.facebook.com/liratvlive/picture?width=200&height=200" group-title="Música",[ES] LIRA TV
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-id="MolahitsTV.es" tvg-logo="" group-title="Música",[ES] Molahits TV
@@ -903,6 +893,8 @@ https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8
 https://live.obslivestream.com/tvoriente/index.m3u8
 #EXTINF:-1 tvg-id="RumbaMixTV.pe" tvg-logo="" group-title="Música",[PE] RumbaMix TV
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="SanjuaneraTV.pe" tvg-logo="" group-title="Música",[PE] SanjuaneraTV
+https://live.obslivestream.com/sanjuanera/index.m3u8
 #EXTINF:-1 tvg-id="TopLatinoTV.pe" tvg-logo="" group-title="Música",[PE] Top Latino TV
 http://38.87.224.20:2220/play/a02b/index.m3u8
 #EXTINF:-1 tvg-id="TurboMixRadioTV.pe" tvg-logo="" group-title="Música",[PE] Turbo Mix Radio TV
@@ -1037,8 +1029,6 @@ https://play.once.net.ec/play/Ily2oYdd3E1fi9wK2zORoRovFU9P5xM0g3CNVK2MT0M/.m3u8
 https://ventaxtv.com:3575/live/uebilive.m3u8
 #EXTINF:-1 tvg-id="UNIANDESTV.ec" tvg-logo="" group-title="Documentales",[EC] UNIANDES TV
 https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
-#EXTINF:-1 tvg-id="Condavision.TV" tvg-logo="https://graph.facebook.com/condavision/picture?width=200&height=200" group-title="Documentales",[ES] Condavisión
-https://5f71743aa95e4.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="CrimenHistoria.es" tvg-logo="" group-title="Documentales",[ES] Crimen & Historia
 https://jmp2.uk/plu-64ddcbb14c5ed80008fad416.m3u8
 #EXTINF:-1 tvg-id="El33.es" tvg-logo="" group-title="Documentales",[ES] El 33 Originals
@@ -1201,6 +1191,8 @@ https://stmv4.voxtvhd.com.br/canicatv/canicatv/playlist.m3u8
 http://190.93.224.42/COMEDY-CENTRAL/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="Entretenimiento",[CO] FX Latin America (1080p)
 http://15.204.246.24:8080/FXHD/index.m3u8
+#EXTINF:-1 tvg-id="HGTVLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" group-title="Entretenimiento",[CO] HGTV Latin America (1080p)
+http://38.87.224.19:2220/play/a01p/index.m3u8
 #EXTINF:-1 tvg-id="HogarTV.co@SD" tvg-logo="https://i.imgur.com/zqovMhf.png" group-title="Entretenimiento",[CO] Hogar TV (1080p)
 http://181.78.211.244:8005/play/a06w/index.m3u8
 #EXTINF:-1 tvg-id="MaxTV.co@HD" tvg-logo="https://gia.tv/streams/pstream/209851.png" group-title="Entretenimiento",[CO] MaxTV [Not 24/7]
@@ -1252,12 +1244,6 @@ http://90.163.85.113:8093/stream/51/index.m3u8
 https://jmp2.uk/plu-690dd10a37b131228d76d5b1.m3u8
 #EXTINF:-1 tvg-id="ETB2ON.TV" tvg-logo="https://play-lh.googleusercontent.com/GUW-ipQpsCCLhoJwWarfUDYO_vr3-5rpxhfipNSHAAvlaaWdfBwdUtVVUzs3PPyQzrSBVepKSqPzNAwDHvljII0=w200" group-title="Entretenimiento",[ES] ETB 2 On
 https://cdn1.etbon.eus/etb2on/index.m3u8
-#EXTINF:-1 tvg-id="LaSexta.es" tvg-logo="" group-title="Entretenimiento",[ES] La Sexta HD
-https://ignac16.github.io/voxel-tv-streams/la6.mpd
-#EXTINF:-1 tvg-id="LogosTVSalud.es" tvg-logo="" group-title="Entretenimiento",[ES] Logos TV Salud
-https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8
-#EXTINF:-1 tvg-id="Neox.es" tvg-logo="" group-title="Entretenimiento",[ES] Neox HD
-https://ignac16.github.io/voxel-tv-streams/neox.mpd
 #EXTINF:-1 tvg-id="Nova.es" tvg-logo="" group-title="Entretenimiento",[ES] Nova HD
 https://ignac16.github.io/voxel-tv-streams/nova.mpd
 #EXTINF:-1 tvg-id="ROTVValencia.es" tvg-logo="" group-title="Entretenimiento",[ES] ROTV Valencia
@@ -1362,14 +1348,12 @@ https://streaming.jarabacoatv.com/Jarabacoa_tv/playlist.m3u8
 https://vs20.live.opencaster.com/bznudxxdtppv/index.m3u8
 #EXTINF:-1 tvg-id="PronemsTV.do" tvg-logo="" group-title="Entretenimiento",[DO] Pronems TV
 https://fox.hostlagarto.com:8081/pronemstv/playlist.m3u8
-#EXTINF:-1 tvg-id="PulaTV.do" tvg-logo="" group-title="Entretenimiento",[DO] Pula TV
-https://fox.hostlagarto.com:8081/pulatv/index.m3u8
 #EXTINF:-1 tvg-id="RETV.do" tvg-logo="" group-title="Entretenimiento",[DO] R&E TV
 https://cloud2.streaminglivehd.com:1936/8072/8072/playlist.m3u8
 #EXTINF:-1 tvg-id="SenalesTV.do" tvg-logo="" group-title="Entretenimiento",[DO] Senales TV
 https://live.dionelysterrero.com/senalestv/stream.m3u8
 #EXTINF:-1 tvg-id="Super7FM.do" tvg-logo="" group-title="Entretenimiento",[DO] Super7FM
-https://tv.livestreaminggroup.info:3295/live/super7tvlive.m3u8
+https://stream.haislin.com/super7fm/index.m3u8
 #EXTINF:-1 tvg-id="Telenovisa43.do" tvg-logo="" group-title="Entretenimiento",[DO] Telenovisa43
 https://fox.hostlagarto.com:8081/telenonisa43/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TurismoHD.do" tvg-logo="" group-title="Entretenimiento",[DO] Turismo HD
@@ -1516,6 +1500,8 @@ https://cdn.mycloudstream.io/hls/live/broadcast/uwcedjt2/index.m3u8
 https://5fc584f3f19c9.streamlock.net/agape/smil:agape.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArboldeVidaTV.sv" tvg-logo="" group-title="Religión",[SV] Árbol de Vida TV
 https://yupistream.top:19360/livearbol/livearbol.m3u8
+#EXTINF:-1 tvg-id="Canal63TVCatolicoCorinto.sv" tvg-logo="" group-title="Religión",[SV] Canal 63 TV Catolico Corinto
+http://167.249.23.102:8000/play/TvCatolico_CO/index.m3u8
 #EXTINF:-1 tvg-id="Canal65.sv" tvg-logo="" group-title="Religión",[SV] Canal 65
 https://panel.streamingtv-mediacp.online:1936/tv65/tv65/playlist.m3u8
 #EXTINF:-1 tvg-id="ElCaminoTV.sv" tvg-logo="" group-title="Religión",[SV] El Camino TV
@@ -1547,8 +1533,6 @@ http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u
 https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/q6xkg9py/480/chunklist.m3u8
 #EXTINF:-1 tvg-id="LogosTV.es" tvg-logo="" group-title="Religión",[ES] Logos TV
 https://streamer1.streamhost.org/salive/logosH/master.m3u8
-#EXTINF:-1 tvg-id="LogosTVEstudio.es" tvg-logo="" group-title="Religión",[ES] Logos TV Estudio
-https://streamer1.streamhost.org/salive/logosdirectaH/playlist.m3u8
 #EXTINF:-1 tvg-id="Taroteame.es" tvg-logo="" group-title="Religión",[ES] Tarotéame
 https://5d2733224ac48.streamlock.net/taroteame/tarot_web/playlist.m3u8
 #EXTINF:-1 tvg-id="TBNEspana.es" tvg-logo="" group-title="Religión",[ES] TBN España
@@ -2293,6 +2277,8 @@ https://movil.ejeserver.com/live/visiondorada.m3u8
 https://tdcdigital-streams.github.io/iptv/CaliTV.m3u8
 #EXTINF:-1 tvg-id="Canal1.co@SD" tvg-logo="https://i.imgur.com/YFywPLC.png" group-title="General",[CO] Canal 1 (Colombia) (1080p)
 http://190.109.2.92:8000/play/a010/index.m3u8
+#EXTINF:-1 tvg-id="Canal12Valledupar.co@SD" tvg-logo="https://i.imgur.com/2xqMZrE.png" group-title="General",[CO] Canal 12 Valledupar (1080p)
+http://181.78.8.199:8000/play/a0e4/index.m3u8
 #EXTINF:-1 tvg-id="Canal2AlpavisionNeiva.co@SD" tvg-logo="https://i.imgur.com/Yv8XIGW.png" group-title="General",[CO] Canal 2 Alpavision Neiva (720p) [Not 24/7]
 https://stmv1.voxtvhd.com.br/alpavision/alpavision/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal8Sincelejo.co@SD" tvg-logo="https://i.imgur.com/6lAA8lL.png" group-title="General",[CO] Canal 8 Sincelejo (720p)
@@ -2461,6 +2447,8 @@ https://k20.usastreams.com:8081/tvsur/index.m3u8
 http://tv.ticosmedia.com:1935/TVSUR/TVSUR/playlist.m3u8
 #EXTINF:-1 tvg-id="ZurquiTV.cr" tvg-logo="" group-title="General",[CR] Zurquí TV
 https://videoserver.tmcreativos.com:19360/gesfnvpamn/gesfnvpamn.m3u8
+#EXTINF:-1 tvg-id="CubavisionInternacional.cu" tvg-logo="" group-title="General",[CU] Cubavision Internacional
+http://90.183.52.46:4000/play/a04a/index.m3u8
 #EXTINF:-1 tvg-id="AmericaEstereoGuayaquil.ec" tvg-logo="" group-title="General",[EC] América Estéreo Guayaquil
 https://video.makrodigital.com/americaestereoguayaquil/americaestereoguayaquil/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaEstereoIbarra.ec" tvg-logo="" group-title="General",[EC] América Estéreo Ibarra
@@ -2585,8 +2573,6 @@ https://cdn-edge1.cef-technology.com/wow/wow_tv/playlist.m3u8
 https://ztnr.rtve.es/ztnr/6108696.m3u8
 #EXTINF:-1 tvg-id="Spain:+tdp:https://ztnr.rtve.es/ztnr/6712432.m3u8" tvg-logo="https://graph.facebook.com/teledeporteRTVE/picture?width=200&height=200" group-title="General",[ES] +tdp
 https://ztnr.rtve.es/ztnr/6712432.m3u8
-#EXTINF:-1 tvg-id="101tvCadiz.es" tvg-logo="" group-title="General",[ES] 101tv Cádiz
-https://streaming101tv.es:19360/cadiz/cadiz.m3u8
 #EXTINF:-1 tvg-id="Spain:28 Kanala:https://streaming.28kanala.eus/hls/z.m3u8" tvg-logo="https://graph.facebook.com/28kanala/picture?width=200&height=200" group-title="General",[ES] 28 Kanala
 https://streaming.28kanala.eus/hls/z.m3u8
 #EXTINF:-1 tvg-id="Spain:33TV:https://limited43.todostreaming.es/live/simbana-livestream.m3u8" tvg-logo="https://graph.facebook.com/33Television/picture?width=200&height=200" group-title="General",[ES] 33TV
@@ -2649,12 +2635,8 @@ https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
 https://broadcast1.radioponiente.org/atv/index.m3u8
 #EXTINF:-1 tvg-id="Spain:Anove TV:https://cloud.streamingconnect.tv/hls/anove/anove.m3u8" tvg-logo="https://graph.facebook.com/anove.tv/picture?width=200&height=200" group-title="General",[ES] Anove TV
 https://cloud.streamingconnect.tv/hls/anove/anove.m3u8
-#EXTINF:-1 tvg-id="Antena3.es" tvg-logo="" group-title="General",[ES] Antena 3
-https://ignac16.github.io/voxel-tv-streams/a3.mpd
 #EXTINF:-1 tvg-id="Spain:Arabí TV:https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8" tvg-logo="https://graph.facebook.com/arabitvyecla/picture?width=200&height=200" group-title="General",[ES] Arabí TV
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
-#EXTINF:-1 tvg-id="AragonTVInternacional.es" tvg-logo="" group-title="General",[ES] Aragon TV Internacional
-https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 #EXTINF:-1 tvg-id="AtlánticoTV.TV" tvg-logo="https://pbs.twimg.com/profile_images/1779498186727456768/bIHqyk7p_200x200.jpg" group-title="General",[ES] Atlántico Televisión
 https://live.atlanticotelevision.com/hls/hi/index.m3u8
 #EXTINF:-1 tvg-id="BailenTV.es" tvg-logo="" group-title="General",[ES] Bailén TV
@@ -2663,12 +2645,12 @@ http://cpd.bailen.tv:8080/Playlist_CANAL_24H/playlist.m3u8
 https://live1.ovalcast.com:3916/live/bcngospeltvlive.m3u8
 #EXTINF:-1 tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200" group-title="General",[ES] betevé
 https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_vfibi2fe/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
-#EXTINF:-1 tvg-id="BiosferaTV.es" tvg-logo="" group-title="General",[ES] Biosfera TV
-https://tvdatta.com:3021/live/biosferatvlive.m3u8
 #EXTINF:-1 tvg-id="BonDiaTV.es" tvg-logo="" group-title="General",[ES] Bon Dia TV
 https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8
 #EXTINF:-1 tvg-id="Spain:Burriana TeVe:https://stream.burrianateve.com:8443/hls/abr_burrianateve/index.m3u8" tvg-logo="https://graph.facebook.com/burrianateve/picture?width=200&height=200" group-title="General",[ES] Burriana TeVe
 https://stream.burrianateve.com:8443/hls/abr_burrianateve/index.m3u8
+#EXTINF:-1 tvg-id="Spain:Canal 1 Mar Menor Torre Pacheco:https://directo.tuwebtv.es/canal1.m3u8" tvg-logo="https://graph.facebook.com/tuwebtv/picture?width=200&height=200" group-title="General",[ES] Canal 1 Mar Menor Torre Pacheco
+https://directo.tuwebtv.es/canal1.m3u8
 #EXTINF:-1 tvg-id="Xarxa_Canal_10_Emporda.TV" tvg-logo="https://graph.facebook.com/canal10emporda/picture?width=200&height=200" group-title="General",[ES] Canal 10 Empordà
 https://ventdelnord.tv:8080/escala/directe.m3u8
 #EXTINF:-1 tvg-id="Spain:Canal 13 Canarias:https://eu1.servers10.com:8081/8316/index.m3u8" tvg-logo="https://graph.facebook.com/canal13canarias/picture?width=200&height=200" group-title="General",[ES] Canal 13 Canarias
@@ -2681,10 +2663,6 @@ https://limited49.todostreaming.es/live/tvbarbastro-livestream.m3u8
 https://avantstreaming.es/hls/canal3hd.m3u8
 #EXTINF:-1 tvg-id="C33M.TV" tvg-logo="https://yt3.googleusercontent.com/nMLOOCMI7LojDKtlKoYXJEmVin-_lbR4Y-TgAdQ7RvJvuinOI109sFGIl_HwbqlWn3g7qMDH=s200" group-title="General",[ES] Canal 33 Madrid
 https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal4Catalunya.es" tvg-logo="" group-title="General",[ES] Canal 4 Catalunya
-https://limited35.todostreaming.es/live/mitjans-livestream.m3u8
-#EXTINF:-1 tvg-id="Canal4Mallorca.es" tvg-logo="" group-title="General",[ES] Canal 4 Mallorca
-https://limited35.todostreaming.es/live/mitjans-livestream1.m3u8
 #EXTINF:-1 tvg-id="Spain:Canal 4 Mancha:https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8" tvg-logo="https://graph.facebook.com/canal4villarrobledo/picture?width=200&height=200" group-title="General",[ES] Canal 4 Mancha
 https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal4_Tenerife.TV" tvg-logo="https://graph.facebook.com/CANAL4TENERIFE/picture?width=200&height=200" group-title="General",[ES] Canal 4 Tenerife
@@ -2709,9 +2687,6 @@ https://d2ymuyhevki1a1.cloudfront.net/wct-ddd2992e-86fc-4611-a491-7f392259e9ba/c
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_Canal_Reus_TV.TV" tvg-logo="https://graph.facebook.com/canalreus.cat/picture?width=200&height=200" group-title="General",[ES] Canal Reus
 https://ingest2-video.streaming-pro.com/creus/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalReusTV.es" tvg-logo="" group-title="General",[ES] Canal Reus TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/canalreustvlive/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Canal San Roque:https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8" tvg-logo="https://yt3.googleusercontent.com/6SgTMpyVCJlMGBcip6gvloYy2u-BP4vY-H2paJ2zO471owJq_YcgPhUUB0tBaKIKlNUKzeRf=s200" group-title="General",[ES] Canal San Roque
 https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="General",[ES] Canal Sur Andalucía
@@ -2740,6 +2715,8 @@ https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_fmx3
 https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/flavorIds/1_a9gxgxzy,1_v71ryg4b,1_vbfvtjw6,1_obo1bqsx,1_3shk3s5d/a.m3u8
 #EXTINF:-1 tvg-id="RTVE_Conciertos_R3.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="General",[ES] Conciertos Radio 3 (RTVE)
 https://ztnr.rtve.es/ztnr/6924117.m3u8
+#EXTINF:-1 tvg-id="Condavision.TV" tvg-logo="https://graph.facebook.com/condavision/picture?width=200&height=200" group-title="General",[ES] Condavisión
+https://5f71743aa95e4.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Consejo de Gobierno de la Región de Murcia:https://crmlive.redctnet.es/liveedge/ConsejoGob/playlist.m3u8" tvg-logo="https://graph.facebook.com/RegiondeMurciaRM/picture?width=200&height=200" group-title="General",[ES] Consejo de Gobierno de la Región de Murcia
 https://crmlive.redctnet.es/liveedge/ConsejoGob/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Cortes de Castilla y León:https://directo.ccyl.es/Hemiciclo/smil:Hemiciclo.smil/playlist.m3u8" tvg-logo="https://graph.facebook.com/cortesdecastillayleon/picture?width=200&height=200" group-title="General",[ES] Cortes de Castilla y León
@@ -2748,9 +2725,6 @@ https://directo.ccyl.es/Hemiciclo/smil:Hemiciclo.smil/playlist.m3u8
 https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8
 #EXTINF:-1 tvg-id="RTVE_Cuentame.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="General",[ES] Cuéntame (RTVE)
 https://ztnr.rtve.es/ztnr/6909843.m3u8
-#EXTINF:-1 tvg-id="CugatTV.es" tvg-logo="" group-title="General",[ES] Cugat TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/cugatcatlive/smil:rtmp01.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:De Laredu Lin TV:https://eu1.servers10.com:8081/8034/index.m3u8" tvg-logo="https://graph.facebook.com/delaredulintv/picture?width=200&height=200" group-title="General",[ES] De Laredu Lin TV
 https://eu1.servers10.com:8081/8034/index.m3u8
 #EXTINF:-1 tvg-id="Dejate.TV" tvg-logo="https://graph.facebook.com/DejateDeHistoriasTV/picture?width=200&height=200" group-title="General",[ES] Déjate de Historias TV
@@ -2767,9 +2741,6 @@ https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
 https://nlb2-live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8
 #EXTINF:-1 tvg-id="Spain:Durangaldeko TV:https://live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8" tvg-logo="https://graph.facebook.com/dotbDurangaldekoTelebista/picture?width=200&height=200" group-title="General",[ES] Durangaldeko TV
 https://live.emitstream.com/hls/5f9asjsehd7gmyxsdpzu/master.m3u8
-#EXTINF:-1 tvg-id="El9TV.es" tvg-logo="" group-title="General",[ES] El 9 TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/9tvlive/smil:live.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="ElToroTV.TV" tvg-logo="https://graph.facebook.com/eltorotv.es/picture?width=200&height=200" group-title="General",[ES] El Toro TV
 https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 #EXTINF:-1 tvg-id="Elche7.TV" tvg-logo="https://graph.facebook.com/Elche7HD/picture?width=200&height=200" group-title="General",[ES] Elche 7 TV
@@ -2795,8 +2766,6 @@ https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8
 https://cdn1.etbon.eus/meteo/index.m3u8
 #EXTINF:-1 tvg-id="Spain:Eusko Legebiltzarra:https://bideoak.legebiltzarra.eus/zuzenean/stream-3_channel-1/playlist.m3u8" tvg-logo="https://graph.facebook.com/legebiltzarra/picture?width=200&height=200" group-title="General",[ES] Eusko Legebiltzarra
 https://bideoak.legebiltzarra.eus/zuzenean/stream-3_channel-1/playlist.m3u8
-#EXTINF:-1 tvg-id="Fibwi.es" tvg-logo="" group-title="General",[ES] Fibwi
-https://hostcdn3.fibwi.com/fibwi_diario/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="FuengirolaTV.TV" tvg-logo="https://graph.facebook.com/fuengirolatvoficial/picture?width=200&height=200" group-title="General",[ES] Fuengirola TV
 https://streaming004.gestec-video.com/hls/FTV.m3u8
 #EXTINF:-1 tvg-id="Spain:Fuerteventura TV:https://live.lancelot.tv/directo/fuerteventura.television/index.m3u8" tvg-logo="https://yt3.ggpht.com/qj92f7GsPI7R-YCYzsFj5mDoSCduHSgh8lwCWHFXbHAx6rNmLsB78RZlmfiqbjYzQdNh1Fj9sQ=s200" group-title="General",[ES] Fuerteventura TV
@@ -2817,8 +2786,6 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12689&live=1
 https://streaming.ukt.eus/hls/test.m3u8
 #EXTINF:-1 tvg-id="Spain:Huelva Conecta:https://servidor.islahostingla.com:3542/live/huelvaconecta3live.m3u8" tvg-logo="https://yt3.ggpht.com/dQxpHlPEeQ6XTzXJu7eJa36C7nT7TjxecHbznRDwEqWmdV5Upl8VMafZMHhCfToJGcdTcy1_bJA=s200" group-title="General",[ES] Huelva Conecta
 https://servidor.islahostingla.com:3542/live/huelvaconecta3live.m3u8
-#EXTINF:-1 tvg-id="HuelvaTV.es" tvg-logo="" group-title="General",[ES] Huelva TV
-https://5d8d85cf2c308.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="Imas.TV" tvg-logo="https://graph.facebook.com/television.imas/picture?width=200&height=200" group-title="General",[ES] Imás TV
 https://secure3.todostreaming.es/live/imastv-livestream.m3u8
 #EXTINF:-1 tvg-id="InterAlmeria.TV" tvg-logo="https://graph.facebook.com/Interalmeriatv/picture?width=200&height=200" group-title="General",[ES] Interalmería TV
@@ -2849,6 +2816,8 @@ https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
 https://ztnr.rtve.es/ztnr/2472039.m3u8
 #EXTINF:-1 tvg-id="RTVE_Epoca.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="General",[ES] La Revuelta (RTVE)
 https://ztnr.rtve.es/ztnr/16464388.m3u8
+#EXTINF:-1 tvg-id="LaSeptima.es" tvg-logo="" group-title="General",[ES] La Septima
+https://cache2.zapitv.com/live/eds_c2/la_septima/dash_live_ez/la_septima.mpd
 #EXTINF:-1 tvg-id="Spain:Lancelot TV:https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8" tvg-logo="https://graph.facebook.com/LancelotTelevision/picture?width=200&height=200" group-title="General",[ES] Lancelot TV
 https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
 #EXTINF:-1 tvg-id="LleidaTelevisio.es" tvg-logo="" group-title="General",[ES] Lleida Televisió
@@ -2863,28 +2832,29 @@ https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
 https://liveingesta318.cdnmedia.tv/m1tvlive/smil:live.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="Mijas340TV.TV" tvg-logo="https://graph.facebook.com/Mijas340TV/picture?width=200&height=200" group-title="General",[ES] Mijas 3.40 TV
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
+#EXTINF:-1 tvg-id="MirameTV.TV" tvg-logo="https://graph.facebook.com/mirametvcom/picture?width=200&height=200" group-title="General",[ES] Mírame TV
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13696&live=1
 #EXTINF:-1 tvg-id="Spain:NORTEvisión:http://amaru.dyndns.org:8870/0.m3u8" tvg-logo="https://graph.facebook.com/aljoamyvisual/picture?width=200&height=200" group-title="General",[ES] NORTEvisión
 http://amaru.dyndns.org:8870/0.m3u8
 #EXTINF:-1 tvg-id="Spain:Oizmendi TB:https://zuzenean.oizmendi.eus/hls/z.m3u8" tvg-logo="https://graph.facebook.com/oizmenditelebista/picture?width=200&height=200" group-title="General",[ES] Oizmendi TB
 https://zuzenean.oizmendi.eus/hls/z.m3u8
-#EXTINF:-1 tvg-id="OlotTV.es" tvg-logo="" group-title="General",[ES] Olot TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta118.cdnmedia.tv/olottvlive/smil:live.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="OndaAlgeciras.TV" tvg-logo="https://graph.facebook.com/ondaalgecirastv/picture?width=200&height=200" group-title="General",[ES] Onda Algeciras TV
 https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
 #EXTINF:-1 tvg-id="OndaCadiz.TV" tvg-logo="https://graph.facebook.com/ondacadiz/picture?width=200&height=200" group-title="General",[ES] Onda Cádiz
 https://ondacadiztv.es:30443/octv/directo_multi/playlist.m3u8
+#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="General",[ES] Parlamento de Andalucía
+https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Parlamento de Galicia:https://pgalicia-live.akamaized.net/hls/live/2040697/pleno/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodegalicia/picture?width=200&height=200" group-title="General",[ES] Parlamento de Galicia
 https://pgalicia-live.akamaized.net/hls/live/2040697/pleno/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Parlamento de La Rioja:https://media.parlamento-larioja.org/live/parlarioja/playlist.m3u8" tvg-logo="https://graph.facebook.com/ParlamentodeLaRioja/picture?width=200&height=200" group-title="General",[ES] Parlamento de La Rioja
 https://media.parlamento-larioja.org/live/parlarioja/playlist.m3u8
+#EXTINF:-1 tvg-id="Spain:Parlamento de Navarra:https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR" tvg-logo="https://pbs.twimg.com/profile_images/1517046445030924289/r4OIw84T_200x200.jpg" group-title="General",[ES] Parlamento de Navarra
+https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="PenedesTelevisio.es" tvg-logo="" group-title="General",[ES] Penedès Televisió
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta318.cdnmedia.tv/rtvvilafrancalive/smil:live.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="Spain:Piera TV:https://5d776b1861da1.streamlock.net/piera/smil:piera.smil/playlist.m3u8" tvg-logo="https://yt3.ggpht.com/Yo_LIch5OT5hTA24FMlshk7MtHpuUbVoOd8U2HJGw6el7-cCkAhH8_ISKmww17wHn37FCOF_rg=s200" group-title="General",[ES] Piera TV
 https://5d776b1861da1.streamlock.net/piera/smil:piera.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PirineusTV.es" tvg-logo="" group-title="General",[ES] Pirineus TV
-https://s153.ipcamlive.com/streams/99pic5fsknh2gnvhx/stream.m3u8
 #EXTINF:-1 tvg-id="PopularTV_S.TV" tvg-logo="https://graph.facebook.com/populartvcantabria/picture?width=200&height=200" group-title="General",[ES] Popular TV Cantabria
 https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
 #EXTINF:-1 tvg-id="Spain:Popular TV Melilla:https://5940924978228.streamlock.net/8009/ngrp:8009_all/playlist.m3u8" tvg-logo="https://graph.facebook.com/PopularTelevisionMelilla/picture?width=200&height=200" group-title="General",[ES] Popular TV Melilla
@@ -2913,9 +2883,6 @@ https://nrvideo1.newradio.it/calimafm/calimafm/playlist.m3u8
 https://common01.todostreaming.es/live/ribera-livestream.m3u8
 #EXTINF:-1 tvg-id="RNEparatodos.es" tvg-logo="" group-title="General",[ES] RNE para todos
 https://rtvelivestream.rtve.es/rtvesec/rne/rne_para_todos_main.m3u8
-#EXTINF:-1 tvg-id="RTVElVendrell.es" tvg-logo="" group-title="General",[ES] RTV El Vendrell
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/tvvendrelllive/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:RTV Mogán:https://cloudvideo.servers10.com:8081/8028/index.m3u8" tvg-logo="https://graph.facebook.com/radiotelevisionmogan/picture?width=200&height=200" group-title="General",[ES] RTV Mogán
 https://cloudvideo.servers10.com:8081/8028/index.m3u8
 #EXTINF:-1 tvg-id="RTVCCardedeu.es" tvg-logo="" group-title="General",[ES] RTVC Cardedeu
@@ -2939,8 +2906,6 @@ https://open.http.mp.streamamg.com/p/3001314/sp/300131400/playManifest/entryId/0
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 tvg-id="Xarxa_TAC12.TV" tvg-logo="https://graph.facebook.com/tacdotze/picture?width=200&height=200" group-title="General",[ES] TAC 12
 https://ingest3-video.streaming-pro.com/tac12_ABR/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="Tac12.es" tvg-logo="" group-title="General",[ES] Tac12
-https://ingest1-video.streaming-pro.com/tac12_ABR/stream/tacdotze/srtweb_1080/chunks.m3u8
 #EXTINF:-1 tvg-id="Spain:TEF:https://tef.servertv.online:3268/live/teflive.m3u8" tvg-logo="https://graph.facebook.com/TEFTV/picture?width=200&height=200" group-title="General",[ES] TEF
 https://tef.servertv.online:3268/live/teflive.m3u8
 #EXTINF:-1 tvg-id="Spain:Tele 7:https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8" tvg-logo="https://graph.facebook.com/Tele7Radio7/picture?width=200&height=200" group-title="General",[ES] Tele 7
@@ -2994,9 +2959,6 @@ https://valldeuxo.gestec-video.com/hls/lavall.m3u8
 https://play.turesportmedia.com/hls/abr_tvalmassora/index.m3u8
 #EXTINF:-1 tvg-id="Spain:TV Aranda:https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12686&live=1" tvg-logo="https://graph.facebook.com/575943555801687/picture?width=200&height=200" group-title="General",[ES] TV Aranda
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12686&live=1
-#EXTINF:-1 tvg-id="TVBergueda.es" tvg-logo="" group-title="General",[ES] TV Berguedà
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/berguedatvlive/smil:migracion.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="TVBRICSSpanish.es" tvg-logo="" group-title="General",[ES] TV BRICS Spanish
 https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8
 #EXTINF:-1 tvg-id="Canarias.TV" tvg-logo="https://graph.facebook.com/RadioTelevisionCanaria/picture?width=200&height=200" group-title="General",[ES] TV Canaria (RTVC)
@@ -3015,21 +2977,14 @@ https://5940924978228.streamlock.net/directohellin/directohellin/playlist.m3u8
 https://liveingesta318.cdnmedia.tv/tvhospitaletlive/smil:tvhospitalet.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="TVR.TV" tvg-logo="https://pbs.twimg.com/profile_images/1777371033835569152/vuHm8KUZ_200x200.jpg" group-title="General",[ES] TV Rioja
 https://5924d3ad0efcf.streamlock.net/riojatv/riojatvlive/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRipolles.es" tvg-logo="" group-title="General",[ES] TV Ripollès
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="Xarxa_TV_Sabadell_Valles.TV" tvg-logo="https://graph.facebook.com/tvsabadellvalles/picture?width=200&height=200" group-title="General",[ES] TV Sabadell - Vallès
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevisiondeSanVicente.es" tvg-logo="" group-title="General",[ES] TV San Vicente
 https://emision.arpamedia.es:4343/hls/tvsanvicenteweb.m3u8
 #EXTINF:-1 tvg-id="Spain:tvA:https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8" tvg-logo="https://graph.facebook.com/tvArtequatre/picture?width=200&height=200" group-title="General",[ES] tvA
 https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8
-#EXTINF:-1 tvg-id="TVCentroAndalucia.es" tvg-logo="" group-title="General",[ES] TVCentro Andalucía
-https://5fa5de1a545ae.streamlock.net/8052/8052/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es" tvg-logo="" group-title="General",[ES] TVE Internacional America
 https://barinaslive1.boldmss.com/TVE/TVE.isml/index.m3u8
-#EXTINF:-1 tvg-id="TVEInternacionalAsiaOceania.es" tvg-logo="" group-title="General",[ES] TVE Internacional Asia-Oceania
-http://103.172.29.30:9991/stream/channel/a23a4ab90fe7569ced31e455b752ab51
 #EXTINF:-1 tvg-id="TVEInternacionalEurope.es" tvg-logo="" group-title="General",[ES] TVE Internacional Europe
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tve/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGAL.TV" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="General",[ES] TVG
@@ -3058,9 +3013,6 @@ https://streamingtvi.gestec-video.com/hls/unesd.m3u8
 https://5940924978228.streamlock.net/j_Directo2/j_Directo2/playlist.m3u8
 #EXTINF:-1 tvg-id="UrolaTelebista.es" tvg-logo="" group-title="General",[ES] Urola Telebista
 https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8
-#EXTINF:-1 tvg-id="VallesVisio.es" tvg-logo="" group-title="General",[ES] Vallès Visió
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta318.cdnmedia.tv/vallesvisiotvlive/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VentdelnordTV.es" tvg-logo="" group-title="General",[ES] Ventdelnord TV
 http://ventdelnord.tv:8080/hls/directe.m3u8
 #EXTINF:-1 tvg-id="Vinx.TV" tvg-logo="https://graph.facebook.com/VinxTV/picture?width=200&height=200" group-title="General",[ES] Vinx TV
@@ -3068,8 +3020,6 @@ https://live.enfoque.media:5443/live/streams/vinxtv.m3u8
 #EXTINF:-1 tvg-id="Vision6TV.es" tvg-logo="" group-title="General",[ES] Vision 6 TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://streaming.proceso.info:8888/vision6-web/stream.m3u8
-#EXTINF:-1 tvg-id="Vivamovil.es" tvg-logo="" group-title="General",[ES] Vivamóvil
-https://5d8d85cf2c308.streamlock.net:1936/AlcalaTV/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_VOTV.TV" tvg-logo="https://graph.facebook.com/votv.cat/picture?width=200&height=200" group-title="General",[ES] VOTV
 https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Xaloa Telebista:https://streaming.mediacast.pro/live/xaloa/playlist.m3u8" tvg-logo="https://graph.facebook.com/xaloatb/picture?width=200&height=200" group-title="General",[ES] Xaloa Telebista
@@ -3573,6 +3523,8 @@ https://live-evg7.tv360.bitel.com.pe/bitel/regiontvSRT/playlist.m3u8
 https://videoserver.tmcreativos.com:19360/rnyurimaguas/rnyurimaguas.m3u8
 #EXTINF:-1 tvg-id="RumboMineroTV.pe" tvg-logo="" group-title="General",[PE] Rumbo Minero TV
 http://38.87.224.19:2220/play/a049/index.m3u8
+#EXTINF:-1 tvg-id="SelvaTV.pe" tvg-logo="" group-title="General",[PE] SelvaTV
+https://videoserver.tmcreativos.com:2020/hls/selvatv/selvatv.m3u8
 #EXTINF:-1 tvg-id="SenalPeruTV.pe" tvg-logo="" group-title="General",[PE] Señal Perú TV
 https://livestream.perucast.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SiscomTV.pe" tvg-logo="" group-title="General",[PE] Siscom TV
@@ -3583,11 +3535,12 @@ https://live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8
 https://5790d294af2dc.streamlock.net/streamtv/streamtv/playlist.m3u8
 #EXTINF:-1 tvg-id="StudioPascoTV.pe" tvg-logo="" group-title="General",[PE] Studio Pasco TV
 https://live-evg7.tv360.bitel.com.pe/bitel/studiopasco/playlist.m3u8
+#EXTINF:-1 tvg-id="SullanaTV.pe" tvg-logo="" group-title="General",[PE] Sullana TV
+https://mundial.cpustream.com:8081/sullanatv/video.m3u8
 #EXTINF:-1 tvg-id="TelecolorYurimaguas.pe" tvg-logo="" group-title="General",[PE] Telecolor Yurimaguas
 https://live.obslivestream.com/telecolormux/index.m3u8
 #EXTINF:-1 tvg-id="Telelima.pe" tvg-logo="" group-title="General",[PE] Telelima
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/telelima.stream/playlist.m3u8
+https://live.telelima.net/web/index.m3u8
 #EXTINF:-1 tvg-id="Teleselva.pe" tvg-logo="" group-title="General",[PE] Teleselva
 https://live-evg7.tv360.bitel.com.pe/bitel/teleselva/playlist.m3u8
 #EXTINF:-1 tvg-id="TelesystemTV.pe" tvg-logo="" group-title="General",[PE] Telesystem TV
@@ -3628,6 +3581,8 @@ https://live-evg11.tv360.bitel.com.pe/bitel/unicentroSRT/playlist.m3u8
 https://live-evg11.tv360.bitel.com.pe/bitel/uraniotv/playlist.m3u8
 #EXTINF:-1 tvg-id="UranioTV.pe" tvg-logo="" group-title="General",[PE] Uranio TV
 https://live-evg8.tv360.bitel.com.pe/bitel/uranioyurimaguasSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="USILTV.pe" tvg-logo="" group-title="General",[PE] USIL TV
+https://eu1.servers10.com:8081/8162/index.m3u8
 #EXTINF:-1 tvg-id="ViaAltomayo.pe" tvg-logo="" group-title="General",[PE] Vía Altomayo
 https://live.obslivestream.com/viaaltomayomux/index.m3u8
 #EXTINF:-1 tvg-id="ViaTelevision.pe" tvg-logo="" group-title="General",[PE] Vía Televisión
@@ -3844,7 +3799,7 @@ https://streamunoapp.com:3520/live/oxitvcanal36live.m3u8
 #EXTINF:-1 tvg-id="PalmarTV.do" tvg-logo="" group-title="General",[DO] Palmar TV
 https://streamunoapp.com:3255/live/palmartvlive.m3u8
 #EXTINF:-1 tvg-id="PortalDigitalTV.do" tvg-logo="" group-title="General",[DO] Portal Digital TV
-https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/5ccadd2a-00ad-4a5b-8322-4b5f69464a68/source/index.m3u8
+https://edge.essastream.com/portaldigital/index.m3u8
 #EXTINF:-1 tvg-id="PuntaCanaTV.do" tvg-logo="" group-title="General",[DO] Punta Cana TV
 https://fox.hostlagarto.com:8081/puntacanatv/index.m3u8
 #EXTINF:-1 tvg-id="PuntoTV.do" tvg-logo="" group-title="General",[DO] Punto TV
@@ -3853,8 +3808,6 @@ https://fox.hostlagarto.com:8081/puntotv/index.m3u8
 https://vdopanel.jlahozconsulting.com/p/3142/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="ReadyTVCanal6.do" tvg-logo="" group-title="General",[DO] Ready TV Canal 6
 https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8
-#EXTINF:-1 tvg-id="RedSocialCodiTV.do" tvg-logo="" group-title="General",[DO] Red Social Codi TV
-https://mp.panelchs.com:1936/8040/8040/playlist.m3u8
 #EXTINF:-1 tvg-id="ReporteroTV.do" tvg-logo="" group-title="General",[DO] Reportero TV
 https://streamrd.cloud:5443/LiveApp/streams/J3E3REmLNBzirS9A10575071547538.m3u8
 #EXTINF:-1 tvg-id="RocavisionTV.do" tvg-logo="" group-title="General",[DO] Rocavision TV
@@ -3879,8 +3832,6 @@ http://190.122.104.210:5080/LiveApp/streams/sitv2.m3u8
 https://cnn.hostlagarto.com/supercanalhd/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperDigitalTV.do" tvg-logo="" group-title="General",[DO] Super Digital TV
 https://cdn.streamrd.cloud/live/ch_kb5qe1zr.m3u8
-#EXTINF:-1 tvg-id="Supremateve.do" tvg-logo="" group-title="General",[DO] Supremateve
-https://ss2.tvrdomi.com:1936/supremateve/supremateve/playlist.m3u8
 #EXTINF:-1 tvg-id="TDNMedios.do" tvg-logo="" group-title="General",[DO] TDN Medios
 https://castv10.plugstreaming.com:19360/tdntv/tdntv.m3u8
 #EXTINF:-1 tvg-id="TeleAntillas.do" tvg-logo="" group-title="General",[DO] Tele Antillas
@@ -3941,8 +3892,6 @@ https://tv.wracanal10.com:3012/live/latoratvlive.m3u8
 https://59d39900ebfb8.streamlock.net/tv10sanjuan/tv10sanjuan/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCotuiCanal31.do" tvg-logo="" group-title="General",[DO] TV Cotui Canal 31
 https://183.giatvcdn.com/ssh101/ssh101/tvcotui/playlist.m3u8
-#EXTINF:-1 tvg-id="TVDaja.do" tvg-logo="" group-title="General",[DO] TV Daja
-https://edge.essastream.com/dajatv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVHigueyDigital.do" tvg-logo="" group-title="General",[DO] TV Higuey Digital
 https://host.streamingnation.live/p/3467/live/tvhigueylive.m3u8
 #EXTINF:-1 tvg-id="TVMontanaCanal10.do" tvg-logo="" group-title="General",[DO] TV Montana Canal 10
@@ -4285,24 +4234,8 @@ https://congresodirecto.akamaized.net/hls/live/2038276/canal3/master.m3u8
 https://congresodirecto.akamaized.net/hls/live/2038277/canal4/master.m3u8
 #EXTINF:-1 tvg-id="Spain:Congreso de los Diputados:https://congresodirecto.akamaized.net/hls/live/2038274/canal1/master.m3u8" tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Congreso de los Diputados [respaldo 5]
 https://congresodirecto.akamaized.net/hls/live/2038278/canal5/master.m3u8
-#EXTINF:-1 tvg-id="MirameTV.TV" tvg-logo="https://graph.facebook.com/mirametvcom/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Mírame TV [respaldo 2]
-https://bit.controlstreams.com:5443/LiveApp/streams/mirametv.m3u8
 #EXTINF:-1 tvg-id="Negocios.TV" tvg-logo="https://graph.facebook.com/Negociostele/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Negocios TV [respaldo 2]
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
-#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Parlamento de Andalucía [respaldo 2]
-https://stream2.parlamentodeandalucia.es/realizacion2/realizacion2/playlist.m3u8
-#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Parlamento de Andalucía [respaldo 3]
-https://stream2.parlamentodeandalucia.es/realizacion3/realizacion3/playlist.m3u8
-#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Parlamento de Andalucía [respaldo 4]
-https://stream2.parlamentodeandalucia.es/realizacion4/realizacion4/playlist.m3u8
-#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Parlamento de Andalucía [respaldo 5]
-http://193.147.254.64:1935/realizacion1/realizacion1/playlist.m3u8
-#EXTINF:-1 tvg-id="Spain:Parlamento de Navarra:https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR" tvg-logo="https://pbs.twimg.com/profile_images/1517046445030924289/r4OIw84T_200x200.jpg" group-title="Respaldos manuales",[ES] Parlamento de Navarra [respaldo 2]
-https://broadcasting.parlamentodenavarra.es/live/canal2/playlist.m3u8?DVR
-#EXTINF:-1 tvg-id="Spain:Parlamento de Navarra:https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR" tvg-logo="https://pbs.twimg.com/profile_images/1517046445030924289/r4OIw84T_200x200.jpg" group-title="Respaldos manuales",[ES] Parlamento de Navarra [respaldo 3]
-https://broadcasting.parlamentodenavarra.es/live/canal3/playlist.m3u8?DVR
-#EXTINF:-1 tvg-id="Spain:Parlamento de Navarra:https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR" tvg-logo="https://pbs.twimg.com/profile_images/1517046445030924289/r4OIw84T_200x200.jpg" group-title="Respaldos manuales",[ES] Parlamento de Navarra [respaldo 4]
-https://broadcasting.parlamentodenavarra.es/live/canal1/master.m3u8
 #EXTINF:-1 tvg-id="Guatevision.gt" tvg-logo="" group-title="Respaldos manuales",[GT] Guatevision [respaldo 2]
 http://168.196.127.137:6001/play/a04m/index.m3u8
 #EXTINF:-1 tvg-id="Guatevision.gt" tvg-logo="" group-title="Respaldos manuales",[GT] Guatevision [respaldo 3]
@@ -4507,8 +4440,6 @@ http://181.78.211.244:8005/play/a06z/index.m3u8
 http://200.122.223.13:55000/play/zoom-banda-ku/index.m3u8
 #EXTINF:-1 tvg-id="Zoom.co@SD" tvg-logo="https://i.imgur.com/euy5zp6.png" group-title="Respaldos manuales",[CO] Zoom (Colombia) (1080p) [respaldo 3]
 http://181.78.79.131:8000/play/a0sg
-#EXTINF:-1 tvg-id="Condavision.TV" tvg-logo="https://graph.facebook.com/condavision/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Condavisión [respaldo 2]
-https://5d8d85cf2c308.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="El33.es" tvg-logo="" group-title="Respaldos manuales",[ES] El 33 Originals [respaldo 2]
 https://directes-tv-int.3catdirectes.cat/live-origin/c33-super3-hls/master.m3u8
 #EXTINF:-1 tvg-id="Historia.es" tvg-logo="" group-title="Respaldos manuales",[ES] Historia HD [respaldo 2]
@@ -4571,10 +4502,6 @@ https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/mas
 https://rtvelivestream.rtve.es/eventual/gofast/playm20_main.m3u8
 #EXTINF:-1 tvg-id="ETB2ON.TV" tvg-logo="https://play-lh.googleusercontent.com/GUW-ipQpsCCLhoJwWarfUDYO_vr3-5rpxhfipNSHAAvlaaWdfBwdUtVVUzs3PPyQzrSBVepKSqPzNAwDHvljII0=w200" group-title="Respaldos manuales",[ES] ETB 2 On [respaldo 2]
 https://cdn1.etbon.eus/etb2on/index.mpd
-#EXTINF:-1 tvg-id="LaSexta.es" tvg-logo="" group-title="Respaldos manuales",[ES] La Sexta HD [respaldo 2]
-https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/la6.mpd
-#EXTINF:-1 tvg-id="Neox.es" tvg-logo="" group-title="Respaldos manuales",[ES] Neox HD [respaldo 2]
-https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/neox.mpd
 #EXTINF:-1 tvg-id="Nova.es" tvg-logo="" group-title="Respaldos manuales",[ES] Nova HD [respaldo 2]
 https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/nova.mpd
 #EXTINF:-1 tvg-id="RSVHonduras.hn" tvg-logo="" group-title="Respaldos manuales",[HN] RSV Honduras [respaldo 2]
@@ -4615,12 +4542,10 @@ https://live-evg7.tv360.bitel.com.pe/bitel/riku/playlist.m3u8
 https://alba-do-antena7-c21.stream.mediatiquestream.com/index.m3u8
 #EXTINF:-1 tvg-id="COCOTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] COCO TV [respaldo 2]
 https://mlb.essastream.com:8081/canalcocotv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Super7FM.do" tvg-logo="" group-title="Respaldos manuales",[DO] Super7FM [respaldo 2]
-https://stream.haislin.com/super7fm/index.m3u8
 #EXTINF:-1 tvg-id="TVS.do" tvg-logo="" group-title="Respaldos manuales",[VE] TVS [respaldo 2]
 https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
 #EXTINF:-1 tvg-id="AbejalesTV.ve" tvg-logo="" group-title="Respaldos manuales",[VE] AbejalesTV [respaldo 2]
-https://streaming5.globalhostla.com/rtplive/abejales/playlist.m3u8
+https://streamtv.intervenhosting.net:3119/live/abejalestvlive.m3u8
 #EXTINF:-1 tvg-id="TVFamilia.ve" tvg-logo="" group-title="Respaldos manuales",[VE] TV Familia [respaldo 2]
 https://59d39900ebfb8.streamlock.net/tvfamilia_270p/tvfamilia_270p/playlist.m3u8
 #EXTINF:-1 tvg-id="VePlus.ve" tvg-logo="" group-title="Respaldos manuales",[VE] Ve Plus Panregional [respaldo 2]
@@ -4676,8 +4601,6 @@ https://5fc584f3f19c9.streamlock.net/agape/videoagape/chunklist_w153454298.m3u8
 https://stream.soporteccrtv.xyz/hls/master-dveo.m3u8
 #EXTINF:-1 tvg-id="GSGTV.sv" tvg-logo="" group-title="Respaldos manuales",[SV] GSG TV [respaldo 2]
 https://rpn3.bozztv.com/schurch1/livecdn69/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Spain:Canal Luz Televisión:https://5f71743aa95e4.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8" tvg-logo="https://graph.facebook.com/canalluztelevision/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Canal Luz Televisión [respaldo 2]
-https://5d8d85cf2c308.streamlock.net:1936/CanalLuz/enDirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="13.TV" tvg-logo="https://graph.facebook.com/TRECEtves/picture?width=200&height=200" group-title="Respaldos manuales",[CO] TRECE [respaldo 2]
 http://190.60.46.228:8888/play/a030/index.m3u8
 #EXTINF:-1 tvg-id="13.TV" tvg-logo="https://graph.facebook.com/TRECEtves/picture?width=200&height=200" group-title="Respaldos manuales",[CO] TRECE [respaldo 3]
@@ -4958,6 +4881,8 @@ http://190.61.47.54:8000/play/a013/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta118.cdnmedia.tv/canaltro2live/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CaracolHD2.co@SD" tvg-logo="https://i.imgur.com/Fww94l9.png" group-title="Respaldos manuales",[CO] Caracol HD2 (1080p) [respaldo 2]
+http://181.78.79.131:8000/play/a0uo
+#EXTINF:-1 tvg-id="CaracolHD2.co@SD" tvg-logo="https://i.imgur.com/Fww94l9.png" group-title="Respaldos manuales",[CO] Caracol HD2 (1080p) [respaldo 3]
 http://190.109.2.92:8000/play/a05u/index.m3u8
 #EXTINF:-1 tvg-id="CaracolInternacional.co@SD" tvg-logo="https://i.imgur.com/h7LWbt5.png" group-title="Respaldos manuales",[CO] Caracol Internacional (1080p) [respaldo 2]
 http://45.238.141.222:8000/play/a0oo/index.m3u8
@@ -4977,91 +4902,93 @@ http://200.115.120.1:8000/play/ca067/index.m3u8
 #EXTINF:-1 tvg-id="CaracolInternacional.co@SD" tvg-logo="https://i.imgur.com/h7LWbt5.png" group-title="Respaldos manuales",[CO] Caracol Internacional (1080p) [respaldo 9]
 http://138.59.177.78:9999/play/a0a8/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 2]
-http://45.166.93.156:9999/play/a0f5/index.m3u8
+http://38.211.118.56:50002/play/a0gq/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 3]
+http://45.166.93.156:9999/play/a0f5/index.m3u8
+#EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 http://45.173.12.70:8000/play/a0f9
-#EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 4]
-http://45.173.231.22:8000/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 5]
-http://45.188.229.33:8000/play/a0vh/index.m3u8
+http://45.173.231.22:8000/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 6]
-http://45.188.229.33:8000/play/a1iq/index.m3u8
+http://45.188.229.33:8000/play/a0vh/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 7]
-http://45.226.205.96:48000/play/a0ad/index.m3u8
+http://45.188.229.33:8000/play/a1iq/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 8]
-http://138.94.3.106:8000/play/a06z
+http://45.226.205.96:48000/play/a0ad/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 9]
-http://138.121.15.230:9002/CARACOL/index.m3u8
+http://138.94.3.106:8000/play/a06z
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 10]
-http://167.249.23.102:8000/play/a0i1/index.m3u8
+http://138.121.15.230:9002/CARACOL/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 11]
-http://167.250.223.26:9998/play/a05e/index.m3u8
+http://167.249.23.102:8000/play/a0i1/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 12]
-http://168.228.44.241:9997/play/a03t/index.m3u8
+http://167.250.223.26:9998/play/a05e/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 13]
-http://179.1.199.50:9000/play/a0a1/index.m3u8
+http://168.228.44.241:9997/play/a03t/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 14]
-http://179.60.224.196:8000/play/a0hw/index.m3u8
+http://179.1.199.50:9000/play/a0a1/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 15]
-http://181.78.8.199:8000/play/a0b0/index.m3u8
+http://179.60.224.196:8000/play/a0hw/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 16]
-http://181.78.8.199:8000/play/a0jz/index.m3u8
+http://181.78.8.199:8000/play/a0b0/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 17]
-http://181.78.12.119:16123/play/ch58/index.m3u8
+http://181.78.8.199:8000/play/a0jz/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 18]
-http://181.78.12.119:16123/play/ch58a/index.m3u8
+http://181.78.12.119:16123/play/ch58/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 19]
-http://181.78.12.119:16123/play/ch58b/index.m3u8
+http://181.78.12.119:16123/play/ch58a/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 20]
-http://181.78.17.228:8081/CARACOL-HD/index.m3u8
+http://181.78.12.119:16123/play/ch58b/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 21]
-http://181.78.21.38:8000/play/a0b5/index.m3u8
+http://181.78.17.228:8081/CARACOL-HD/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 22]
-http://181.78.21.38:8000/play/a0cv/index.m3u8
+http://181.78.21.38:8000/play/a0b5/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 23]
-http://181.78.64.206:10000/play/a0w4/index.m3u8
+http://181.78.21.38:8000/play/a0cv/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 24]
-http://181.78.79.131:8000/play/a0sb
+http://181.78.64.206:10000/play/a0w4/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 25]
-http://181.79.87.131:8000/play/a0f0/index.m3u8
+http://181.78.79.131:8000/play/a0sb
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 26]
-http://181.205.130.194:4000/play/a0ck
+http://181.79.87.131:8000/play/a0f0/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 27]
-http://181.205.130.194:4000/play/a0dz
+http://181.205.130.194:4000/play/a0ck
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 28]
-http://181.225.190.242:8000/play/a00q
+http://181.205.130.194:4000/play/a0dz
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 29]
-http://190.60.46.228:8888/play/a04c/index.m3u8
+http://181.225.190.242:8000/play/a00q
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 30]
-http://190.61.42.218:9000/play/a09n/index.m3u8
+http://190.60.46.228:8888/play/a04c/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 31]
-http://190.61.47.54:8000/play/a01e/index.m3u8
+http://190.61.42.218:9000/play/a09n/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 32]
-http://190.109.2.92:8000/play/a00q/index.m3u8
+http://190.61.47.54:8000/play/a01e/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 33]
-http://190.110.96.238:8000/play/a0mu/index.m3u8
+http://190.109.2.92:8000/play/a00q/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 34]
-http://190.121.140.222:8081/CARACOL/index.m3u8
+http://190.110.96.238:8000/play/a0mu/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 35]
-http://200.59.191.177:8000/play/a001/index.m3u8
+http://190.121.140.222:8081/CARACOL/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 36]
-http://200.115.96.61:9090/play/a0jk/index.m3u8
+http://200.59.191.177:8000/play/a001/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 37]
-http://200.115.120.1:8000/play/ca070/index.m3u8
+http://200.115.96.61:9090/play/a0jk/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 38]
-http://200.122.223.13:55000/play/canal-caracol-banda-ku/index.m3u8
+http://200.115.120.1:8000/play/ca070/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 39]
-http://200.122.223.13:55000/play/caracol-tv-hd-tdt/index.m3u8
+http://200.122.223.13:55000/play/canal-caracol-banda-ku/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 40]
-http://200.122.232.149:8000/play/a020/index.m3u8
+http://200.122.223.13:55000/play/caracol-tv-hd-tdt/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 41]
-http://201.216.147.90:8729/play/a01v
+http://200.122.232.149:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 42]
-https://barinaslive1.boldmss.com/CARACOL/CARACOL.isml/CARACOL.m3u8
+http://201.216.147.90:8729/play/a01v
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 43]
-http://181.79.86.130:8000/play/a04w/index.m3u8
+https://barinaslive1.boldmss.com/CARACOL/CARACOL.isml/CARACOL.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 44]
+http://181.79.86.130:8000/play/a04w/index.m3u8
+#EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="Respaldos manuales",[CO] Caracol TV (1080p) [respaldo 45]
 http://181.79.86.130:8000/play/a077/index.m3u8
 #EXTINF:-1 tvg-id="CitytvBogota.co@SD" tvg-logo="https://i.imgur.com/h7K9EW9.png" group-title="Respaldos manuales",[CO] Citytv Bogota (1080p) [respaldo 2]
 http://190.61.47.54:8000/play/a03l/index.m3u8
@@ -5276,8 +5203,6 @@ https://rtvelivestream.rtve.es/eventual/gofast/playm26_main.m3u8
 http://217.182.77.27/live/alcarriatv-livestream.m3u8
 #EXTINF:-1 tvg-id="Spain:Alcarria TV:https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8" tvg-logo="https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Alcarria TV [respaldo 3]
 https://cls.alcarria.tv/alcarriatv/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="Antena3.es" tvg-logo="" group-title="Respaldos manuales",[ES] Antena 3 [respaldo 2]
-https://cdn.jsdelivr.net/gh/Ignac16/voxel-tv@main/src/constants/channels/a3.mpd
 #EXTINF:-1 tvg-id="Spain:Arabí TV:https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8" tvg-logo="https://graph.facebook.com/arabitvyecla/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Arabí TV [respaldo 2]
 https://servidor.islahostingla.com:3548/live/arabitvlive.m3u8
 #EXTINF:-1 tvg-id="BonDiaTV.es" tvg-logo="" group-title="Respaldos manuales",[ES] Bon Dia TV [respaldo 2]
@@ -5286,14 +5211,10 @@ https://directes-tv-int.3catdirectes.cat/live-origin/bondia-hls/master.m3u8
 http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
 #EXTINF:-1 tvg-id="Spain:Canal 3 Biar:https://avantstreaming.es/hls/canal3hd.m3u8" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_nQt5rluj5KRX0HGcMvHLxSUJuhjZe4Y1GfuA0NjpHf5Q=s200" group-title="Respaldos manuales",[ES] Canal 3 Biar [respaldo 2]
 https://avantstreaming.es/hls/canal3.m3u8
-#EXTINF:-1 tvg-id="Extremadura.TV" tvg-logo="https://graph.facebook.com/CanalExtremadura/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Canal Extremadura [respaldo 2]
-https://cdnlive.codev8.net/canalextremaduralive/smil:channel1DVR.smil/playlist.m3u8?DVR=
 #EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Canal Sur Andalucía [respaldo 2]
 https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8
 #EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Canal Sur Andalucía [respaldo 3]
 https://rtva-channel22.flumotion.cloud/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Canal Sur Andalucía [respaldo 4]
-https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/26af5488cda642ed2eddd27a6328c93b9c03e9181b9d0a825147a7d978e69202.m3u8
 #EXTINF:-1 tvg-id="Xarxa_Canal_Taronja_Central.TV" tvg-logo="https://graph.facebook.com/taronja.cat/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Canal Taronja Central [respaldo 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest1-video.streaming-pro.com/canaltaronja/central/playlist.m3u8
@@ -5303,8 +5224,6 @@ https://ingest1-video.streaming-pro.com/canaltaronja/osona/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_Canal_Terrassa.TV" tvg-logo="https://graph.facebook.com/canalterrassa/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Canal Terrassa [respaldo 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalCosta.TV" tvg-logo="https://graph.facebook.com/canalcosta/picture?width=200&height=200" group-title="Respaldos manuales",[ES] CanalCosta [respaldo 2]
-https://5d8d85cf2c308.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVE_Conciertos_R3.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Conciertos Radio 3 (RTVE) [respaldo 2]
 https://rtvelivestream.rtve.es/eventual/gofast/playm11_main.m3u8
 #EXTINF:-1 tvg-id="Spain:Cortes de Castilla y León:https://directo.ccyl.es/Hemiciclo/smil:Hemiciclo.smil/playlist.m3u8" tvg-logo="https://graph.facebook.com/cortesdecastillayleon/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Cortes de Castilla y León [respaldo 2]
@@ -5345,12 +5264,20 @@ https://rtvelivestream.rtve.es/eventual/gofast/playm1_main.m3u8
 https://rtvelivestream.rtve.es/eventual/gofast/playm5_main.m3u8
 #EXTINF:-1 tvg-id="OndaCadiz.TV" tvg-logo="https://graph.facebook.com/ondacadiz/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Onda Cádiz [respaldo 2]
 https://ondacadiztv.es:30443/octv/24h/playlist.m3u8
+#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Parlamento de Andalucía [respaldo 2]
+https://stream2.parlamentodeandalucia.es/realizacion2/realizacion2/playlist.m3u8
+#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Parlamento de Andalucía [respaldo 3]
+https://stream2.parlamentodeandalucia.es/realizacion3/realizacion3/playlist.m3u8
+#EXTINF:-1 tvg-id="Spain:Parlamento de Andalucía:https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8" tvg-logo="https://graph.facebook.com/parlamentodeandalucia.es/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Parlamento de Andalucía [respaldo 4]
+https://stream2.parlamentodeandalucia.es/realizacion4/realizacion4/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Parlamento de La Rioja:https://media.parlamento-larioja.org/live/parlarioja/playlist.m3u8" tvg-logo="https://graph.facebook.com/ParlamentodeLaRioja/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Parlamento de La Rioja [respaldo 2]
 https://media.parlamento-larioja.org/live/parlarioja_subtitulado/playlist.m3u8
+#EXTINF:-1 tvg-id="Spain:Parlamento de Navarra:https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR" tvg-logo="https://pbs.twimg.com/profile_images/1517046445030924289/r4OIw84T_200x200.jpg" group-title="Respaldos manuales",[ES] Parlamento de Navarra [respaldo 2]
+https://broadcasting.parlamentodenavarra.es/live/canal2/playlist.m3u8?DVR
+#EXTINF:-1 tvg-id="Spain:Parlamento de Navarra:https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR" tvg-logo="https://pbs.twimg.com/profile_images/1517046445030924289/r4OIw84T_200x200.jpg" group-title="Respaldos manuales",[ES] Parlamento de Navarra [respaldo 3]
+https://broadcasting.parlamentodenavarra.es/live/canal3/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="Spain:Piera TV:https://5d776b1861da1.streamlock.net/piera/smil:piera.smil/playlist.m3u8" tvg-logo="https://yt3.ggpht.com/Yo_LIch5OT5hTA24FMlshk7MtHpuUbVoOd8U2HJGw6el7-cCkAhH8_ISKmww17wHn37FCOF_rg=s200" group-title="Respaldos manuales",[ES] Piera TV [respaldo 2]
 http://51.254.47.72:1935/piera/smil:piera.smil/master.m3u8
-#EXTINF:-1 tvg-id="Spain:Popular TV Melilla:https://5940924978228.streamlock.net/8009/ngrp:8009_all/playlist.m3u8" tvg-logo="https://graph.facebook.com/PopularTelevisionMelilla/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Popular TV Melilla [respaldo 2]
-http://5940924978228.streamlock.net:1935/8009/8009/playlist.m3u8
 #EXTINF:-1 tvg-id="RNE_Radio4.TV" tvg-logo="https://pbs.twimg.com/profile_images/1849411372498530304/xy9er_VU_200x200.jpg" group-title="Respaldos manuales",[ES] Ràdio 4 [respaldo 2]
 https://rtvelivestream.rtve.es/rtvesec/rne/rne_r4_cam_main_dvr.m3u8
 #EXTINF:-1 tvg-id="RTVE_PopUp2.TV" tvg-logo="https://graph.facebook.com/rtveplay/picture?width=200&height=200" group-title="Respaldos manuales",[ES] RTVE 70 años (RTVE) [respaldo 2]
@@ -5376,10 +5303,6 @@ https://senadolive.akamaized.net/hls/live/2006590/punto8/master.m3u8
 https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:Teleganés:https://live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8" tvg-logo="https://graph.facebook.com/1423419417957760/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Teleganés [respaldo 2]
 https://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
-#EXTINF:-1 tvg-id="Telemotril.TV" tvg-logo="https://graph.facebook.com/telemotriltv/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Telemotril [respaldo 2]
-https://5940924978228.streamlock.net/8431/8431/playlist.m3u8
-#EXTINF:-1 tvg-id="Teleonuba.TV" tvg-logo="https://graph.facebook.com/Teleonuba/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Teleonuba [respaldo 2]
-https://5d8d85cf2c308.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="Top_Barça.TV" tvg-logo="https://graph.facebook.com/fcbarcelona/picture?width=200&height=200" group-title="Respaldos manuales",[ES] Top Barça [respaldo 2]
 https://amg17560-fcb-amg17560c3-lg-es-11383.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17560-fcbarcelona-topbarcacatala-lges/playlist.m3u8
 #EXTINF:-1 tvg-id="Canarias.TV" tvg-logo="https://graph.facebook.com/RadioTelevisionCanaria/picture?width=200&height=200" group-title="Respaldos manuales",[ES] TV Canaria (RTVC) [respaldo 2]
@@ -5389,9 +5312,6 @@ https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8
 https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEInternacionalAmerica.es" tvg-logo="" group-title="Respaldos manuales",[ES] TVE Internacional America [respaldo 2]
 http://116.121.59.72:9981/stream/channel/75f703b52ec2465e4ed2934b98f0f77a
-#EXTINF:-1 tvg-id="TVEInternacionalEurope.es" tvg-logo="" group-title="Respaldos manuales",[ES] TVE Internacional Europe [respaldo 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://91.228.35.249:8001/1:0:1:DAD:1F40:13E:820000:0:0:0
 #EXTINF:-1 tvg-id="Spain:TVG Eventos:https://crtvg-events1.flumotion.cloud/playlist.m3u8" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="Respaldos manuales",[ES] TVG Eventos [respaldo 2]
 https://crtvg-events2.flumotion.cloud/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:TVG Eventos:https://crtvg-events1.flumotion.cloud/playlist.m3u8" tvg-logo="https://graph.facebook.com/CRTVG/picture?width=200&height=200" group-title="Respaldos manuales",[ES] TVG Eventos [respaldo 3]
@@ -5400,8 +5320,6 @@ https://crtvg-events3.flumotion.cloud/playlist.m3u8
 https://crtvg-events4.flumotion.cloud/playlist.m3u8
 #EXTINF:-1 tvg-id="Spain:TVM Córdoba:https://d16pwlnz9msuji.cloudfront.net/wct-dad9c712-1c61-4a61-aeee-8be9f5c9e6e9/continuous/8fbfd2f5-30c2-4d48-a24e-73f5d35ba491/index.m3u8" tvg-logo="https://graph.facebook.com/TVM.Cordoba/picture?width=200&height=200" group-title="Respaldos manuales",[ES] TVM Córdoba [respaldo 2]
 http://teledifusion.tv/cordoba/cordobalive/playlist.m3u8
-#EXTINF:-1 tvg-id="Spain:TVM Córdoba:https://d16pwlnz9msuji.cloudfront.net/wct-dad9c712-1c61-4a61-aeee-8be9f5c9e6e9/continuous/8fbfd2f5-30c2-4d48-a24e-73f5d35ba491/index.m3u8" tvg-logo="https://graph.facebook.com/TVM.Cordoba/picture?width=200&height=200" group-title="Respaldos manuales",[ES] TVM Córdoba [respaldo 3]
-https://5924d3ad0efcf.streamlock.net/cordoba/cordobalive/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_VOTV.TV" tvg-logo="https://graph.facebook.com/votv.cat/picture?width=200&height=200" group-title="Respaldos manuales",[ES] VOTV [respaldo 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8
@@ -5542,6 +5460,9 @@ http://rtmp.info:1935/soltv/envivo/playlist.m3u8
 #EXTINF:-1 tvg-id="SolTV.pe" tvg-logo="" group-title="Respaldos manuales",[SV] SolTV [respaldo 3]
 https://videostream.shockmedia.com.ar/hls/canalsoltv/canalsoltv.m3u8
 #EXTINF:-1 tvg-id="Telelima.pe" tvg-logo="" group-title="Respaldos manuales",[PE] Telelima [respaldo 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/telelima.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Telelima.pe" tvg-logo="" group-title="Respaldos manuales",[PE] Telelima [respaldo 3]
 https://live-evg11.tv360.bitel.com.pe/bitel/telelimaSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Teleselva.pe" tvg-logo="" group-title="Respaldos manuales",[PE] Teleselva [respaldo 2]
 https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8
@@ -5605,6 +5526,8 @@ http://server3.prostudionetwork.com:1943/megavision/MV/playlist.m3u8
 #EXTINF:-1 tvg-id="NexxoTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] Nexxo TV [respaldo 2]
 https://cdn3.streamgato.us:3938/live/nexxotvlive.m3u8
 #EXTINF:-1 tvg-id="OndaTV.do" tvg-logo="" group-title="Respaldos manuales",[PE] Onda TV [respaldo 2]
+https://v4.tustreaming.cl:2020/hls/ondatv/ondatv.m3u8
+#EXTINF:-1 tvg-id="OndaTV.do" tvg-logo="" group-title="Respaldos manuales",[PE] Onda TV [respaldo 3]
 https://live-evg5.tv360.bitel.com.pe/bitel/onda/playlist.m3u8
 #EXTINF:-1 tvg-id="ORBITTV.do" tvg-logo="" group-title="Respaldos manuales",[DO] ORBIT TV [respaldo 2]
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8
