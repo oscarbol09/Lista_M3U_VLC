@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-11-22T14:38:31.740Z
+# Generated: 2026-11-23T18:16:21.168Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -454,7 +454,7 @@ https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8
 #EXTINF:-1 tvg-id="DeFianceMedia.pr" tvg-logo="" group-title="Noticias",[PR] DeFiance Media
 https://amg01529-defiancetv-defiancemedia-glewed-tre8x.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioIslaTV.pr" tvg-logo="" group-title="Noticias",[PR] Radio Isla TV
-https://59a564764e2b6.streamlock.net/palestra/palestra/playlist.m3u8
+https://panel2.videocontentstreaming.com/live/4fd37e086394ac7e11a87acbc55e8f91.m3u8
 #EXTINF:-1 tvg-id="CitricoTV.do" tvg-logo="" group-title="Noticias",[DO] Citrico TV
 https://edge.essastream.com/citricotv/playlist.m3u8
 #EXTINF:-1 tvg-id="DeUltimoMinutoTV.do" tvg-logo="" group-title="Noticias",[DO] De Ultimo Minuto TV
@@ -504,7 +504,7 @@ https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&id=
 #EXTINF:-1 tvg-id="DSports.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" group-title="Deportes",[CO] DSports (1080p)
 http://38.187.7.252:8000/play/a03d/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2LatinAmerica.us@Colombia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" group-title="Deportes",[CO] ESPN 2 Latin America Colombia (1080p)
-http://190.61.47.54:8000/play/a005/index.m3u8
+http://38.211.118.56:50002/play/a0fa/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" group-title="Deportes",[CO] ESPN 3 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
 #EXTINF:-1 tvg-id="ESPN4LatinAmerica.us@South" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png" group-title="Deportes",[CO] ESPN 4 Latin America (1080p)
@@ -641,8 +641,14 @@ https://v2.tustreaming.cl/fmplus/index.m3u8
 https://v1.tustreaming.cl/genialtv/index.m3u8
 #EXTINF:-1 tvg-id="LaClave.cl" tvg-logo="" group-title="Música",[CL] La Clave
 https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="LaGranjaTV.cl" tvg-logo="" group-title="Música",[CL] La Granja TV
+https://oracle.streaminghd.cl/8126/8126/playlist.m3u8
+#EXTINF:-1 tvg-id="MasRadioTV.cl" tvg-logo="" group-title="Música",[CL] Mas Radio TV
+https://iptv.intersurtv.cl/intersur_mauletv/index.m3u8
 #EXTINF:-1 tvg-id="MiRadioTV.cl" tvg-logo="" group-title="Música",[CL] Mi Radio TV
 https://scl.edge.grupoz.cl/miradio2/live/playlist.m3u8
+#EXTINF:-1 tvg-id="PalMundoFM.cl" tvg-logo="" group-title="Música",[CL] PalMundo FM
+https://streampanelcp.palmundofm.cl/hls/palmundofm/visual/hd.m3u8
 #EXTINF:-1 tvg-id="PatagoniaRadioTV.cl" tvg-logo="" group-title="Música",[CL] Patagonia Radio TV
 https://video01.logicahost.com.br/grupomedia/grupomedia/playlist.m3u8
 #EXTINF:-1 tvg-id="Pauta.cl" tvg-logo="" group-title="Música",[CL] Pauta
@@ -1671,26 +1677,20 @@ https://6110f70ea8d0e.streamlock.net/1689/1689/playlist.m3u8
 https://627bb251f23c7.streamlock.net:444/CDMInternacional/CDMInternacional/playlist.m3u8
 #EXTINF:-1 tvg-id="WELU81.pr" tvg-logo="" group-title="Religión",[PR] CTNi (Christian Television Network International)
 https://video1.getstreamhosting.com:1936/8226/8226/playlist.m3u8
-#EXTINF:-1 tvg-id="DNJTV.pr" tvg-logo="" group-title="Religión",[PR] DNJ TV
-https://cloud2.streaminglivehd.com:1936/dnjv2/dnjv2/playlist.m3u8
 #EXTINF:-1 tvg-id="EBNTelevision.pr" tvg-logo="" group-title="Religión",[PR] EBN Television WIDP
 https://627bb251f23c7.streamlock.net:444/EBNTELEVISION/EBNTELEVISION/playlist.m3u8
-#EXTINF:-1 tvg-id="FamiliaVisionHD.pr" tvg-logo="" group-title="Religión",[PR] Familia Visión HD
-https://584097344c1f0.streamlock.net/29/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="FarodeSantidadTV.pr" tvg-logo="" group-title="Religión",[PR] Faro de Santidad TV
 https://5dbcd1053301e.streamlock.net:4443/farodesantidad/farodesantidad/playlist.m3u8
-#EXTINF:-1 tvg-id="NGRadioTV.pr" tvg-logo="" group-title="Religión",[PR] NG Radio TV
-https://67acccf130420.streamlock.net/ngradiotv/ngradiotv/playlist.m3u8
-#EXTINF:-1 tvg-id="NuevaVidaFM.pr" tvg-logo="" group-title="Religión",[PR] Nueva Vida TV
-https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8
+#EXTINF:-1 tvg-id="MasterVideo.pr" tvg-logo="" group-title="Religión",[PR] Master Video
+https://eco.streams.ovh:8081/mastervideotv/index.m3u8
 #EXTINF:-1 tvg-id="ParaisoTV.pr" tvg-logo="" group-title="Religión",[PR] Paraíso TV
 https://stream.eleden.com/livewtpm/ngrp:livewtpm_all/playlist.m3u8
 #EXTINF:-1 tvg-id="SalvacionTV.pr" tvg-logo="" group-title="Religión",[PR] Salvación TV
 https://stream.eleden.com/livesalvatv/ngrp:livesalvatv_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Triunfo969FM.pr" tvg-logo="" group-title="Religión",[PR] Triunfo 96.9 FM TV
 https://59825a54e4454.streamlock.net:8443/william652/william652/playlist.m3u8
-#EXTINF:-1 tvg-id="WECN.pr" tvg-logo="" group-title="Religión",[PR] WECN (Único TV)
-https://59825a54e4454.streamlock.net:8443/pastorairisn394/pastorairisn394/chunklist_w239411719.m3u8
+#EXTINF:-1 tvg-id="WCLO501.pr" tvg-logo="" group-title="Religión",[PR] WCLO 50.1
+https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8
 #EXTINF:-1 tvg-id="AdoramTV.do" tvg-logo="" group-title="Religión",[DO] Adoram TV
 https://183.giatvcdn.com/giatv/giatv-adoram/adoram/playlist.m3u8
 #EXTINF:-1 tvg-id="CieloTV.do" tvg-logo="" group-title="Religión",[DO] Cielo TV
@@ -2167,6 +2167,8 @@ https://tv1.ninatv.cl/hls/stream.m3u8
 https://v2.tustreaming.cl/odiseatv/index.m3u8
 #EXTINF:-1 tvg-id="OliTV.cl" tvg-logo="" group-title="General",[CL] Oli TV
 https://v4.tustreaming.cl/retroplaytv/index.m3u8
+#EXTINF:-1 tvg-id="OsornoTV.cl" tvg-logo="" group-title="General",[CL] Osorno TV
+https://envivo.osornotv.cl/memfs/cb5800be-330b-40c9-8519-af788c7e29eb.m3u8
 #EXTINF:-1 tvg-id="PichilemuTV.cl" tvg-logo="" group-title="General",[CL] Pichilemu TV
 https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cl" tvg-logo="" group-title="General",[CL] Polar TV
@@ -2179,6 +2181,8 @@ https://redirector.dps.live/hls/pucontv/playlist.m3u8
 https://v2.tustreaming.cl/americamovil/index.m3u8
 #EXTINF:-1 tvg-id="RadioAncoaTV.cl" tvg-logo="" group-title="General",[CL] Radio Ancoa TV
 https://v2.tustreaming.cl/radioancoatv/index.m3u8
+#EXTINF:-1 tvg-id="RadioBohemiaTV.cl" tvg-logo="" group-title="General",[CL] Radio Bohemia TV
+https://portalstream.cl:8080/bohemia1.m3u8
 #EXTINF:-1 tvg-id="RadioChiloe.cl" tvg-logo="" group-title="General",[CL] Radio Chiloe
 https://videostream.chileservidores.com:8081/chiloe1/index.m3u8
 #EXTINF:-1 tvg-id="RadioContemporaneaCoihueco.cl" tvg-logo="" group-title="General",[CL] Radio Contemporanea Coihueco
@@ -2331,6 +2335,8 @@ https://live20.bozztv.com/akamaissh101/ssh101/cncvalledupar1/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/Cosmovisi%C3%B3n/playlist.m3u8
 #EXTINF:-1 tvg-id="EmisoraComunitaria1041FM.co@SD" tvg-logo="https://i.imgur.com/SQ79Wsb.png" group-title="General",[CO] Emisora Comunitaria 104.1 FM
 https://104florencia.co/wp-admin/admin-ajax.php?action=frp_hls_proxy&url=https://streamyes.alsolnet.com/comunitariafm/live/playlist.m3u8
+#EXTINF:-1 tvg-id="HuilaTV.co@SD" tvg-logo="https://i.imgur.com/hFlGHNZ.png" group-title="General",[CO] Huila TV (1080p)
+https://server.asilivehd.com:3333/live/huilatvlive.m3u8
 #EXTINF:-1 tvg-id="KaluTV.co@SD" tvg-logo="https://i.imgur.com/MO4w3OT.jpeg" group-title="General",[CO] Kalu TV (1080p)
 https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4.m3u8
 #EXTINF:-1 tvg-id="MarsellaTV.co@SD" tvg-logo="https://i.imgur.com/wwYOa00.png" group-title="General",[CO] Marsella TV
@@ -2437,8 +2443,6 @@ https://cloudvideo.servers10.com:8081/8230/index.m3u8
 http://tv.teleunotv.cr:1935/TVUNO/TVUNO/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleBrunca.cr" tvg-logo="" group-title="General",[CR] TeleBrunca
 https://59ef525c24caa.streamlock.net/telebrunca/telebrunca/playlist.m3u8
-#EXTINF:-1 tvg-id="Teletica7.cr" tvg-logo="" group-title="General",[CR] Teletica 7
-http://181.119.177.253:8000/play/a0da
 #EXTINF:-1 tvg-id="TicaVision.cr" tvg-logo="" group-title="General",[CR] TicaVision
 https://5eac7b031d945.streamlock.net/TICAVISION/TICAVISION/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSurCanal14.cr" tvg-logo="" group-title="General",[CR] TV Sur Canal 14
@@ -3116,8 +3120,6 @@ http://stream.grupoabchn.com:1935/SERCANOHD/SERCANOLive.smil/playlist.m3u8
 https://tv.webmedialive.com/sulatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Telavision.hn" tvg-logo="" group-title="General",[HN] Telavisión
 https://stream.oursnetworktv.com/latin/telaVision/playlist.m3u8
-#EXTINF:-1 tvg-id="Telecadena7y4.hn" tvg-logo="" group-title="General",[HN] Telecadena 7 y 4
-http://45.167.2.101:8000/play/a07n/index.m3u8
 #EXTINF:-1 tvg-id="Teleceiba.hn" tvg-logo="" group-title="General",[HN] Teleceiba
 http://45.238.141.222:8000/play/a0pf/index.m3u8
 #EXTINF:-1 tvg-id="TeleDanli.hn" tvg-logo="" group-title="General",[HN] TeleDanli
@@ -3391,7 +3393,7 @@ http://190.128.214.97:64333/play/a05o/index.m3u8
 #EXTINF:-1 tvg-id="RepublicaTV.py" tvg-logo="" group-title="General",[PY] República TV
 https://rds3.desdeparaguay.net/republicatv/republicatv/playlist.m3u8
 #EXTINF:-1 tvg-id="SNT.py" tvg-logo="" group-title="General",[PY] SNT
-https://tv.mitvparaguay.com/hls?id=snt&device_id=dev-461bff6d-cacc-48ea-94b8-02271afb3525
+https://tv.mitvparaguay.com/hls?device_id=dev-461bff6d-cacc-48ea-94b8-02271afb3525&id=snt
 #EXTINF:-1 tvg-id="SURTVItapua.py" tvg-logo="" group-title="General",[PY] SUR TV Itapua
 http://45.170.130.224:8000/play/a036/index.m3u8?hls
 #EXTINF:-1 tvg-id="TVAire.py" tvg-logo="" group-title="General",[PY] TV Aire
@@ -3730,6 +3732,8 @@ https://fox.hostlagarto.com:8081/ghtelevision/tracks-v1a1/mono.m3u8
 https://vtm1.msinteractiva.com/globaltv/globaltv/playlist.m3u8
 #EXTINF:-1 tvg-id="HainaVision.do" tvg-logo="" group-title="General",[DO] Haina Vision
 https://cdn.streamingcpanel.com:3447/live/hainavisionlive.m3u8
+#EXTINF:-1 tvg-id="HatoDelYaqueTV.do" tvg-logo="" group-title="General",[DO] Hato Del Yaque TV
+https://streamunoapp.com:3739/live/hatodelyaquetvlive.m3u8
 #EXTINF:-1 tvg-id="HilandoFinoTV.do" tvg-logo="" group-title="General",[DO] Hilando Fino TV
 https://hilandofinotv.essastream.com:3606/live/canalhilandofinotvlive.m3u8
 #EXTINF:-1 tvg-id="ImagenUniversalTV.do" tvg-logo="" group-title="General",[DO] Imagen Universal TV
@@ -3810,6 +3814,8 @@ https://vdopanel.jlahozconsulting.com/p/3142/hybrid/play.m3u8
 https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8
 #EXTINF:-1 tvg-id="ReporteroTV.do" tvg-logo="" group-title="General",[DO] Reportero TV
 https://streamrd.cloud:5443/LiveApp/streams/J3E3REmLNBzirS9A10575071547538.m3u8
+#EXTINF:-1 tvg-id="RetrovisionTV.do" tvg-logo="" group-title="General",[DO] Retro vision TV
+https://5790d294af2dc.streamlock.net/retrovision/retrovision/playlist.m3u8
 #EXTINF:-1 tvg-id="RocavisionTV.do" tvg-logo="" group-title="General",[DO] Rocavision TV
 https://streamunoapp.com:3331/live/rocavisiontvlive.m3u8
 #EXTINF:-1 tvg-id="RomanaTVCanal42.do" tvg-logo="" group-title="General",[DO] Romana TV Canal 42
@@ -3832,10 +3838,14 @@ http://190.122.104.210:5080/LiveApp/streams/sitv2.m3u8
 https://cnn.hostlagarto.com/supercanalhd/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperDigitalTV.do" tvg-logo="" group-title="General",[DO] Super Digital TV
 https://cdn.streamrd.cloud/live/ch_kb5qe1zr.m3u8
+#EXTINF:-1 tvg-id="TainoLiveTV.do" tvg-logo="" group-title="General",[DO] Taino Live TV
+https://tainolivetv.com/hls/taino2026.m3u8
 #EXTINF:-1 tvg-id="TDNMedios.do" tvg-logo="" group-title="General",[DO] TDN Medios
 https://castv10.plugstreaming.com:19360/tdntv/tdntv.m3u8
 #EXTINF:-1 tvg-id="TeleAntillas.do" tvg-logo="" group-title="General",[DO] Tele Antillas
 https://hls.tvabierta.net/hls/010.m3u8
+#EXTINF:-1 tvg-id="TeleAzul.do" tvg-logo="" group-title="General",[DO] Tele Azul
+https://cdn.streamingcpanel.com:3327/live/teleazullive.m3u8
 #EXTINF:-1 tvg-id="TeleDajabonTV.do" tvg-logo="" group-title="General",[DO] Tele Dajabon TV
 https://5790d294af2dc.streamlock.net/dajabon/dajabon/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleOla44.do" tvg-logo="" group-title="General",[DO] Tele Ola 44
@@ -4545,7 +4555,7 @@ https://mlb.essastream.com:8081/canalcocotv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TVS.do" tvg-logo="" group-title="Respaldos manuales",[VE] TVS [respaldo 2]
 https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
 #EXTINF:-1 tvg-id="AbejalesTV.ve" tvg-logo="" group-title="Respaldos manuales",[VE] AbejalesTV [respaldo 2]
-https://streamtv.intervenhosting.net:3119/live/abejalestvlive.m3u8
+https://streamtv.intervenhosting.net:3677/live/abejalestvlive.m3u8
 #EXTINF:-1 tvg-id="TVFamilia.ve" tvg-logo="" group-title="Respaldos manuales",[VE] TV Familia [respaldo 2]
 https://59d39900ebfb8.streamlock.net/tvfamilia_270p/tvfamilia_270p/playlist.m3u8
 #EXTINF:-1 tvg-id="VePlus.ve" tvg-logo="" group-title="Respaldos manuales",[VE] Ve Plus Panregional [respaldo 2]
@@ -5091,8 +5101,6 @@ https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223
 http://186.33.26.18:8000/play/a0qp/index.m3u8
 #EXTINF:-1 tvg-id="Canal4.cr" tvg-logo="" group-title="Respaldos manuales",[CR] Canal 4 [respaldo 2]
 https://dlhn7gdemxofz.cloudfront.net/ts:abr.m3u8
-#EXTINF:-1 tvg-id="Canal4.cr" tvg-logo="" group-title="Respaldos manuales",[SV] Canal 4 [respaldo 3]
-http://168.228.44.241:9999/play/a042/index.m3u8
 #EXTINF:-1 tvg-id="Canal6.cr" tvg-logo="" group-title="Respaldos manuales",[CR] Canal 6 [respaldo 2]
 https://d3xpfoln9sj56.cloudfront.net/ts:abr.m3u8
 #EXTINF:-1 tvg-id="Canal6.cr" tvg-logo="" group-title="Respaldos manuales",[NI] Canal 6 [respaldo 3]
