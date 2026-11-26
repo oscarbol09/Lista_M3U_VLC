@@ -1,6 +1,6 @@
 #EXTM3U
 # Playlist snapshot from the public catalogs configured in TizenApp.
-# Generated: 2026-11-25T17:17:26.671Z
+# Generated: 2026-11-26T16:57:48.890Z
 # Includes Spanish-speaking countries and Latin America; geo-blocked and unresolved template links are omitted.
 # Main entry per channel comes first. Alternative links are listed under "Respaldos manuales" for manual testing.
 # Attribution: https://github.com/iptv-org/iptv | https://github.com/iptv-org/api | https://github.com/LaQuay/TDTChannels
@@ -2052,7 +2052,7 @@ https://183.giatvcdn.com/ssh101/ssh101/tele6/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleFeBolivia.bo" tvg-logo="" group-title="General",[BO] Tele Fe Bolivia
 https://59d39900ebfb8.streamlock.net/telefehd/telefehd/playlist.m3u8
 #EXTINF:-1 tvg-id="TLEstrella.bo" tvg-logo="" group-title="General",[BO] TL Estrella
-http://190.181.61.93:8000/play/a004/index.m3u8
+https://edge.enhdtv.com/teleestrella/index.m3u8
 #EXTINF:-1 tvg-id="TransMedia.bo" tvg-logo="" group-title="General",[BO] TransMedia
 https://edge.enhdtv.com/8064/index.m3u8
 #EXTINF:-1 tvg-id="TVCulturas.bo" tvg-logo="" group-title="General",[BO] TV Culturas
@@ -3042,6 +3042,8 @@ https://xuntalive.akamaized.net/hls/live/2032287/streamxunta/master.m3u8
 https://stream.oursnetworktv.com/latin/telegtmb/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal100Chinique.gt" tvg-logo="" group-title="General",[GT] Canal 100 Chinique
 https://183.giatvcdn.com/giatv/giatv-chinique100tvenvivo/chinique100tvenvivo/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal13Chiquimula.gt" tvg-logo="" group-title="General",[GT] Canal 13 Chiquimula
+https://www.tl.com.gt/live.php?file=0.m3u8
 #EXTINF:-1 tvg-id="Canal13Esquipulas.gt" tvg-logo="" group-title="General",[GT] Canal 13 Esquipulas
 https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8
 #EXTINF:-1 tvg-id="Canal3.gt" tvg-logo="" group-title="General",[GT] Canal 3
@@ -4677,6 +4679,8 @@ https://d3q93l5bumjyoq.cloudfront.net/index.m3u8
 #EXTINF:-1 tvg-id="AbyaYalaTV.bo" tvg-logo="" group-title="Respaldos manuales",[BO] Abya Yala TV [respaldo 2]
 http://190.181.61.93:8000/play/a00m/index.m3u8
 #EXTINF:-1 tvg-id="AYNITV.bo" tvg-logo="" group-title="Respaldos manuales",[BO] AYNI TV [respaldo 2]
+https://edge.enhdtv.com/aynitv/index.m3u8
+#EXTINF:-1 tvg-id="AYNITV.bo" tvg-logo="" group-title="Respaldos manuales",[BO] AYNI TV [respaldo 3]
 https://59d39900ebfb8.streamlock.net/Aynitv/Aynitv/playlist.m3u8
 #EXTINF:-1 tvg-id="BoliviaTV.bo" tvg-logo="" group-title="Respaldos manuales",[BO] Bolivia TV [respaldo 2]
 http://190.181.61.93:8000/play/a00u/index.m3u8
@@ -4732,7 +4736,9 @@ https://rtp.noxun.net/hls480/stream2.m3u8
 https://rtp.noxun.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RTP.bo" tvg-logo="" group-title="Respaldos manuales",[PE] RTP [respaldo 5]
 https://live-evg7.tv360.bitel.com.pe/bitel/rtp/playlist.m3u8
-#EXTINF:-1 tvg-id="SolTV.bo" tvg-logo="" group-title="Respaldos manuales",[GT] Sol TV [respaldo 2]
+#EXTINF:-1 tvg-id="SolTV.bo" tvg-logo="" group-title="Respaldos manuales",[BO] Sol TV [respaldo 2]
+https://edge.enhdtv.com/soltv/index.m3u8
+#EXTINF:-1 tvg-id="SolTV.bo" tvg-logo="" group-title="Respaldos manuales",[GT] Sol TV [respaldo 3]
 https://cdn.streamhispanatv.net:3409/live/soltvlive.m3u8
 #EXTINF:-1 tvg-id="SPCCanal15.bo" tvg-logo="" group-title="Respaldos manuales",[BO] SPC Canal 15 [respaldo 2]
 https://tv.centaurychile.com/magicatv/streams/22AdscM3Y6Un17Zo4747081346569358.m3u8
@@ -4743,6 +4749,8 @@ https://video01.kshost.com.br:4443/juan6318/juan6318/playlist.m3u8
 #EXTINF:-1 tvg-id="TELE6.bo" tvg-logo="" group-title="Respaldos manuales",[BO] TELE 6 [respaldo 2]
 https://lbgo.bozztv.com/ssh101/ssh101/tele6/playlist.m3u8
 #EXTINF:-1 tvg-id="TLEstrella.bo" tvg-logo="" group-title="Respaldos manuales",[BO] TL Estrella [respaldo 2]
+http://190.181.61.93:8000/play/a004/index.m3u8
+#EXTINF:-1 tvg-id="TLEstrella.bo" tvg-logo="" group-title="Respaldos manuales",[BO] TL Estrella [respaldo 3]
 https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/playlist.m3u8
 #EXTINF:-1 tvg-id="TVLatina.bo" tvg-logo="" group-title="Respaldos manuales",[BO] TV Latina [respaldo 2]
 https://master.tucableip.com/tvlatina/index.m3u8
